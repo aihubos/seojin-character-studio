@@ -130,6 +130,7 @@
                 </div>
 
                 <div class="logline-card mt-8" id="voices"><h3>캐릭터별 고정 보이스</h3><p>같은 캐릭터는 모든 씬에서 같은 음성 레퍼런스를 사용합니다. 안내자와 어른 서진은 동일 보이스입니다.</p><table><thead><tr><th>인물</th><th>고정 코드</th><th>연기 기준</th></tr></thead><tbody><tr><td>교사</td><td><code>teacher-warm-30f</code></td><td>따뜻한 30대 여성, 또렷하고 편안한 한국어</td></tr><tr><td>코리요</td><td><code>child-mascot-warm-bright</code></td><td>밝고 통통 튀는 어린 마스코트, 경쾌한 한국어</td></tr><tr><td>어린 서진</td><td><code>child-girl-6-clear</code></td><td>맑고 부드러운 6세 여아 캐릭터, 자연스러운 한국어</td></tr><tr><td>어른 서진 / 안내자</td><td><code>adult-seojin-warm-25f</code></td><td>차분하고 따뜻한 25세 여성, 안정된 한국어</td></tr></tbody></table><p class="text-sm">위 코드는 제작용 이름이며 실제 서비스의 voice ID가 아닙니다. 음성 샘플·TTS 등록·파일럿 영상은 아직 제작되지 않았습니다. 프롬프트만으로 목소리 일치가 보장되지는 않으므로 첫 샘플 확정 후 같은 음원을 재사용합니다.</p><p class="text-sm">각 Shot의 5초는 편집용 생성 단위입니다. 최종 목표는 54초·16:9·1080p·24fps이며 제공 서비스의 출력 설정에 맞춰 편집합니다. <a href="https://seed.bytedance.com/en/seedance2_5">Seedance 2.5 공식 안내</a></p><p class="text-sm">SCENE 09 내레이션은 귀환 장면부터 49–53초에 걸쳐 이어 읽습니다. 나머지 대사는 실제 낭독 후 씬 안에서 조정합니다.</p><a href="VOICE_PRESETS_SEOJIN.json" download>보이스 지정표 JSON 다운로드</a></div>
+<div class="logline-card mt-8" id="locations"><h3>장소를 따라가는 54초 여행</h3><p>동탄호수공원 → 동탄역 → 삼성전자 화성캠퍼스 → ASML 화성캠퍼스 → 미래 산업도시(SK hynix 창작 장면). 서진의 시선을 따라 표지판·랜드마크에 1~1.5초 초점을 멈춘 뒤 이동합니다. 기존 장면 안에 삽입해 총 54초를 유지합니다.</p><table><thead><tr><th>씬</th><th>장소</th><th>초점 구간</th></tr></thead><tbody><tr><td>01</td><td>화성의 유치원 · 창작 공간</td><td>0:00–0:01</td></tr><tr><td>02</td><td>동탄호수공원 → 동탄역</td><td>0:07.5–0:09 / 0:09.5–0:11</td></tr><tr><td>03</td><td>삼성전자 화성캠퍼스 → ASML 화성캠퍼스 → 시간의 문</td><td>0:11–0:12.5 / 0:12.5–0:14</td></tr><tr><td>04</td><td>미래 화성 산업도시 · 창작 공간</td><td>0:18–0:19.5</td></tr><tr><td>05</td><td>미래 동탄호수공원 수변 광장 · 창작 공간</td><td>0:25–0:26</td></tr><tr><td>06</td><td>미래 반도체 연구 공간 · 창작 공간</td><td>0:32–0:33</td></tr><tr><td>07</td><td>미래 팹의 클린룸 밖 탈의 공간 · 창작 공간</td><td>0:39–0:40</td></tr><tr><td>08</td><td>동탄역으로 돌아오는 귀환 열차 · 창작 연결</td><td>0:49–0:50</td></tr><tr><td>09</td><td>처음의 화성 유치원 · 창작 공간</td><td>0:51–0:52</td></tr><tr><td>10</td><td>동탄호수공원 야경을 모티프로 한 엔딩</td><td>0:53–0:54</td></tr></tbody></table><p class="text-sm">초반 네 장소는 실제 장소를 바탕으로 하고, SK hynix가 보이는 구간은 미래 창작 공간입니다. 지명·로고는 후편집으로 선명하게 넣습니다. 기업의 후원·입주·투자 확정을 의미하지 않습니다.</p><p class="text-sm">장소 근거: <a href="https://tour.hscity.go.kr/NEW/1tour/nature20.jsp">동탄호수공원</a> · <a href="https://tour.hscity.go.kr/NEW/4info/tourInfo.jsp">동탄역 관광안내</a> · <a href="https://semiconductor.samsung.com/kr/news-events/news/samsung-begins-chip-production-using-3nm-process-technology-with-gaa-architecture/">삼성전자 화성캠퍼스</a> · <a href="https://www.asml.com/company/about-asml/locations">ASML 위치 안내</a> · <a href="https://talent.skhynix.com/hub/ko/company/campus">SK하이닉스 캠퍼스 안내</a></p></div>
 <div class="scenes mt-12">
                     <!-- SCENE 01 -->
                     <div class="card scene-card reveal">
@@ -137,6 +138,10 @@
                             <h3>SCENE 01 · 숙제</h3>
                             <span class="timecode">0:00–0:05</span>
                         </div>
+                        <details open>
+                            <summary>📍 장소 포커스 · 0:00–0:01</summary>
+                            <div class="details-content"><strong>화성의 유치원 · 창작 공간</strong><p>창가 너머 동탄 생활권 풍경, 화면 하단 ‘화성특례시’로 출발 장소를 알린다.</p></div>
+                        </details>
                         <details open>
                             <summary>📷 카메라</summary>
                             <div class="details-content">ECU → 크레용이 종이 위에 놓이는 순간. 셸로우 DOF. / 와이드 숏, 유치원 교실. 골든아워 햇살.</div>
@@ -156,6 +161,7 @@ Aspect: 16:9, 1080p, 24fps.
 Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
 Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
 Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Location focus, final edit 00:00-00:01: Establish a fictional kindergarten in Hwaseong; add the Korean place caption 화성특례시 in post-production. Signage treatment: Start with the character gaze, rack focus to the landmark, hold readable for 1-1.5 seconds with low motion blur, then resume movement. Composite exact Korean place names and official logo artwork in editing rather than relying on generated lettering.
 Audio direction:
 teacher-warm-30f: Warm Korean female teacher in her 30s, clear and gentle.
 Scene dialogue (distribute across this scene’s shots once, do not repeat in each shot): 선생님(V.O.) ·  voice: teacher-warm-30f :  &quot;우리 동네의 내일을 그려 오세요.&quot; — 따뜻하고 명랑 Use Korean; no additional speech. Reuse the same approved voice reference per character in every scene. Guide and adult Seojin use the identical voice. Do not treat these editorial voice labels as API voice IDs.</pre>
@@ -188,6 +194,10 @@ Scene dialogue (distribute across this scene’s shots once, do not repeat in ea
                             <span class="timecode">0:05–0:11</span>
                         </div>
                         <details open>
+                            <summary>📍 장소 포커스 · 0:07.5–0:09 / 0:09.5–0:11</summary>
+                            <div class="details-content"><strong>동탄호수공원 → 동탄역</strong><p>호수·수변 산책로와 ‘동탄호수공원’ 안내판에 1.5초 초점. 컷 전환 후 ‘동탄역 / Dongtan Station’ 입구 표지에 1.5초 초점. 서진의 시선 → 표지판 → 함께 달리는 발걸음으로 연결.</p></div>
+                        </details>
+                        <details open>
                             <summary>📷 카메라</summary>
                             <div class="details-content">탑다운 → 서진이가 숙제장에 화성 풍경을 그린다. 크레용 선이 살짝 빛난다. / 종이 위에서 코리요가 빼꼼 나타남. 작은 반짝 이펙트. 서진이와 눈높이를 맞추며 손을 내밀고, 별봉을 흔들자 호수공원 풍경이 빛으로 바뀜. GTX 동탄역으로 함께 달려간다.</div>
                         </details>
@@ -206,6 +216,7 @@ Aspect: 16:9, 1080p, 24fps.
 Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
 Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
 Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Location focus for Shot 02-B, final edit 00:07.5-00:09: Rack focus from Seojin to the Dongtan Lake Park waterfront and entrance sign 동탄호수공원; hold the sign sharp for 1.5 seconds. Final edit 00:09.5-00:11: CUT to the Dongtan Station entrance sign 동탄역 / Dongtan Station and hold sharp for 1.5 seconds before boarding. This is an edited journey, not adjacent geography. Keep the mascot emergence in Shot 02-A. Signage treatment: Start with the character gaze, rack focus to the landmark, hold readable for 1-1.5 seconds with low motion blur, then resume movement. Composite exact Korean place names and official logo artwork in editing rather than relying on generated lettering.
 Audio direction:
 child-mascot-warm-bright: Bright, playful youthful Korean mascot voice, light and warm.
 child-girl-6-clear: Clear, soft Korean child girl character voice, natural and curious.
@@ -215,7 +226,7 @@ Scene dialogue (distribute across this scene’s shots once, do not repeat in ea
 Shot 02-B (5s)
 Subject: Koriyo and child Seojin standing in a bright park that is dissolving into ribbons of warm light.
 Action: Eye-level two-shot. Koriyo extends a small right hand toward the girl; the star wand in its left hand glows brighter. Girl reaches back. Park bench, trees, lampposts behind them dematerialize into streaming amber-gold particles. They begin to run together to the right toward a distant futuristic GTX train station platform, hand in hand.
-Scene: Hwaseong City neighborhood park in early evening, transitioning into a warp of light.
+Scene: Dongtan Lake Park waterfront in early evening, followed by a separate cut to Dongtan Station entrance.
 Camera: Eye-level medium shot, slight handheld sway, 35mm equivalent, dolly follows them for the last 2 seconds.
 Lighting/Style: Warm cinematic lighting, golden hour amber, volumetric light rays, particle streams, photorealistic with 3D character integration, subtle motion blur on running.
 Character anchor: Koriyo — round yellow body, orange spikes, black oval eyes, star wand. Child Seojin — 6yo Korean girl, short black bob, pale yellow t-shirt, beige shorts, star-decorated bag.
@@ -223,6 +234,7 @@ Aspect: 16:9, 1080p, 24fps.
 Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
 Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
 Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Location focus for Shot 02-B, final edit 00:07.5-00:09: Rack focus from Seojin to the Dongtan Lake Park waterfront and entrance sign 동탄호수공원; hold the sign sharp for 1.5 seconds. Final edit 00:09.5-00:11: CUT to the Dongtan Station entrance sign 동탄역 / Dongtan Station and hold sharp for 1.5 seconds before boarding. This is an edited journey, not adjacent geography. Keep the mascot emergence in Shot 02-A. Signage treatment: Start with the character gaze, rack focus to the landmark, hold readable for 1-1.5 seconds with low motion blur, then resume movement. Composite exact Korean place names and official logo artwork in editing rather than relying on generated lettering.
 Audio direction:
 child-mascot-warm-bright: Bright, playful youthful Korean mascot voice, light and warm.
 child-girl-6-clear: Clear, soft Korean child girl character voice, natural and curious.
@@ -258,24 +270,29 @@ Scene dialogue (distribute across this scene’s shots once, do not repeat in ea
                             <span class="timecode">0:11–0:18</span>
                         </div>
                         <details open>
+                            <summary>📍 장소 포커스 · 0:11–0:12.5 / 0:12.5–0:14</summary>
+                            <div class="details-content"><strong>삼성전자 화성캠퍼스 → ASML 화성캠퍼스 → 시간의 문</strong><p>삼성전자 외부 건물의 SAMSUNG 표식과 ‘삼성전자 화성캠퍼스’ 지명 자막, 이어 ASML 외관 로고와 ‘ASML 화성캠퍼스’ 자막을 각각 1.5초 선명하게 잡는다. 14초부터 빛으로 전환해 방진복 안내자가 등장한다. 실제 열차 창밖 연속 경로가 아닌 여행 몽타주.</p></div>
+                        </details>
+                        <details open>
                             <summary>📷 카메라</summary>
-                            <div class="details-content">서진+코리요 POV — GTX 창밖 빛 입자 해체. 스피드 램프. / 크로스 디졸브 — 반도체 팹 클린룸 출구. 유리 너머 웨이퍼 이송 장비 실루엣. 방진복 완전 착용 인물 역광 등장. / 로우앵글 — 방진복 인물이 빛의 경계를 넘어 서진+코리요 앞에. 코리요가 서진이 뒤에 숨으며 살짝 떨림.</div>
+                            <div class="details-content">서진의 시선 → 삼성전자 화성캠퍼스 외관(1.5초) → ASML 화성캠퍼스 외관(1.5초) → 빛 입자 전환. 실제 열차 경로가 아닌 외부 풍경 몽타주. / 크로스 디졸브 — 반도체 팹 클린룸 출구. 유리 너머 웨이퍼 이송 장비 실루엣. 방진복 완전 착용 인물 역광 등장. / 로우앵글 — 방진복 인물이 빛의 경계를 넘어 서진+코리요 앞에. 코리요가 서진이 뒤에 숨으며 살짝 떨림.</div>
                         </details>
                         <details open>
                             <summary>🎥 영상 프롬프트</summary>
                             <div class="details-content code-block">
                                 <button class="copy-btn">복사</button>
                                 <pre>Shot 03-A (5s)
-Subject: First-person POV from inside a moving futuristic train car; child Seojin and Koriyo sit side-by-side on a light-gray seat, facing forward toward the window.
-Action: Outside the window, the daytime landscape dissolves into luminous amber, gold, and white particles. Speed ramp: slow (0-1s) → very fast warp (1s-3.5s) → slow (3.5s-5s). A soft warp-tunnel spiral forms.
-Scene: Clean minimalist train interior with soft ambient LED strips.
-Camera: Forward-facing POV, locked position, 24mm wide, subtle vibration.
+Subject: A travel montage motivated by child Seojin and Koriyo looking out from the train, cutting to Samsung Electronics Hwaseong Campus and ASML Hwaseong Campus exteriors.
+Action: Two distinct exterior inserts hold each campus sign sharply for 1.5 seconds; only after both signs are readable, dissolve into luminous particles and a time portal. Do not blur or speed-ramp during the sign holds.
+Scene: Separate exterior campus views in Hwaseong, joined by editorial cuts rather than a literal train-window route.
+Camera: Character glance, then stable exterior inserts with a brief rack focus onto each campus sign; resume motion after the hold.
 Lighting/Style: Cool white interior + warm particle exterior contrast, high dynamic range, cinematic motion blur, photorealistic.
 Character anchor: Koriyo (visible right side of frame, buckled beside girl) — round yellow body, orange spikes, star wand resting on lap. Child Seojin (visible left) — short black bob, pale yellow t-shirt.
 Aspect: 16:9, 1080p, 24fps.
 Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
 Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
 Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Location montage in Shot 03-A, final edit 00:11-00:12.5: Show the exterior of Samsung Electronics Hwaseong Campus; briefly track past, then hold SAMSUNG signage sharp. Caption 삼성전자 화성캠퍼스. At 00:12.5-00:14: Cut to the ASML Hwaseong Campus exterior and hold ASML signage sharp. Caption ASML 화성캠퍼스. These are separate exterior inserts, not a continuous real train route. At 00:14-00:18 use Shot 03-B: a light portal reveals the fictional future fab corridor and fully covered guide. Signage treatment: Start with the character gaze, rack focus to the landmark, hold readable for 1-1.5 seconds with low motion blur, then resume movement. Composite exact Korean place names and official logo artwork in editing rather than relying on generated lettering.
 Audio direction:
 child-mascot-warm-bright: Bright, playful youthful Korean mascot voice, light and warm.
 adult-seojin-warm-25f: Calm, warm Korean woman in her mid-twenties, steady and reassuring.
@@ -295,6 +312,7 @@ Aspect: 16:9, 1080p, 24fps.
 Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
 Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
 Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Location montage in Shot 03-A, final edit 00:11-00:12.5: Show the exterior of Samsung Electronics Hwaseong Campus; briefly track past, then hold SAMSUNG signage sharp. Caption 삼성전자 화성캠퍼스. At 00:12.5-00:14: Cut to the ASML Hwaseong Campus exterior and hold ASML signage sharp. Caption ASML 화성캠퍼스. These are separate exterior inserts, not a continuous real train route. At 00:14-00:18 use Shot 03-B: a light portal reveals the fictional future fab corridor and fully covered guide. Signage treatment: Start with the character gaze, rack focus to the landmark, hold readable for 1-1.5 seconds with low motion blur, then resume movement. Composite exact Korean place names and official logo artwork in editing rather than relying on generated lettering.
 Audio direction:
 child-mascot-warm-bright: Bright, playful youthful Korean mascot voice, light and warm.
 adult-seojin-warm-25f: Calm, warm Korean woman in her mid-twenties, steady and reassuring.
@@ -333,8 +351,12 @@ Scene dialogue (distribute across this scene’s shots once, do not repeat in ea
                             <span class="timecode">0:18–0:25</span>
                         </div>
                         <details open>
+                            <summary>📍 장소 포커스 · 0:18–0:19.5</summary>
+                            <div class="details-content"><strong>미래 화성 산업도시 · 창작 공간</strong><p>SK hynix 표식이 보이는 미래 산업 건물에 1.5초 초점 후 도시 전경으로 이동. ‘미래 산업도시 · 상상 장면’을 동시에 표시한다. 실제 화성 소재 사업장이나 입주 확정을 뜻하지 않는다.</p></div>
+                        </details>
+                        <details open>
                             <summary>📷 카메라</summary>
-                            <div class="details-content">드론 숏 — 미래 화성시 조감도. / 서진+코리요+안내자 함께 걸으며 SAMSUNG·ASML 건물 표식. 코리요가 건물 사이를 뛰어다니며 신나함. / 서진의 눈동자 리플렉션.</div>
+                            <div class="details-content">SK hynix 미래 창작 건물 표식에 1.5초 초점 → 드론 숏으로 미래 화성시 조감도. ‘미래 산업도시 · 상상 장면’ 동시 표기. / 서진+코리요+안내자 함께 걸으며 SAMSUNG·ASML 건물 표식. 코리요가 건물 사이를 뛰어다니며 신나함. / 서진의 눈동자 리플렉션.</div>
                         </details>
                         <details open>
                             <summary>🎥 영상 프롬프트</summary>
@@ -343,7 +365,7 @@ Scene dialogue (distribute across this scene’s shots once, do not repeat in ea
                                 <pre>Shot 04-A (5s)
 Subject: Aerial cinematic view of a futuristic Hwaseong City skyline.
 Action: Sweeping right-to-left aerial pan over the city. Elevated trams glide between curved glass towers; wide green parks and tree-lined avenues sit between buildings; solar canopies shimmer on rooftops.
-Scene: Utopian near-future Korean city — a blend of coastal wetland curves and glass biomimetic architecture. &quot;SAMSUNG&quot; and &quot;ASML&quot; building signage visible on two tall towers.
+Scene: Utopian near-future Korean city — a blend of coastal wetland curves and glass biomimetic architecture. A fictional future industry building carries SK hynix signage; the simultaneous editorial caption reads 미래 산업도시 · 상상 장면.
 Camera: Aerial drone shot, gentle right-to-left arc, altitude 200m equivalent, 24mm wide, subtle parallax.
 Lighting/Style: Golden hour, warm amber tones, volumetric haze, photorealistic, cinematic color grade, film grain low.
 Character anchor: (no characters in frame)
@@ -351,6 +373,7 @@ Aspect: 16:9, 1080p, 24fps.
 Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
 Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
 Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Location focus in Shot 04-A, final edit 00:18-00:19.5: Hold a SK hynix sign on an imagined future industry building sharp for 1.5 seconds, then widen to the city. Simultaneously display 미래 산업도시 · 상상 장면. This is speculative scenery, not a real Hwaseong SK hynix campus or an announced investment. Do not imply company endorsement. Signage treatment: Start with the character gaze, rack focus to the landmark, hold readable for 1-1.5 seconds with low motion blur, then resume movement. Composite exact Korean place names and official logo artwork in editing rather than relying on generated lettering.
 Audio direction:
 child-mascot-warm-bright: Bright, playful youthful Korean mascot voice, light and warm.
 child-girl-6-clear: Clear, soft Korean child girl character voice, natural and curious.
@@ -368,6 +391,7 @@ Aspect: 16:9, 1080p, 24fps.
 Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
 Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
 Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Location focus in Shot 04-A, final edit 00:18-00:19.5: Hold a SK hynix sign on an imagined future industry building sharp for 1.5 seconds, then widen to the city. Simultaneously display 미래 산업도시 · 상상 장면. This is speculative scenery, not a real Hwaseong SK hynix campus or an announced investment. Do not imply company endorsement. Signage treatment: Start with the character gaze, rack focus to the landmark, hold readable for 1-1.5 seconds with low motion blur, then resume movement. Composite exact Korean place names and official logo artwork in editing rather than relying on generated lettering.
 Audio direction:
 child-mascot-warm-bright: Bright, playful youthful Korean mascot voice, light and warm.
 child-girl-6-clear: Clear, soft Korean child girl character voice, natural and curious.
@@ -403,6 +427,10 @@ Scene dialogue (distribute across this scene’s shots once, do not repeat in ea
                             <span class="timecode">0:25–0:32</span>
                         </div>
                         <details open>
+                            <summary>📍 장소 포커스 · 0:25–0:26</summary>
+                            <div class="details-content"><strong>미래 동탄호수공원 수변 광장 · 창작 공간</strong><p>호수 수평선과 산책로 곡선을 다시 보여 주고 ‘동탄호수공원 · 상상한 미래’ 자막. 그림의 곡선이 도시 도로선으로 이어진다.</p></div>
+                        </details>
+                        <details open>
                             <summary>📷 카메라</summary>
                             <div class="details-content">탑다운 — 서진이 숙제장에 그림. 코리요가 옆에서 별봉으로 색을 더해줌. / 그림→도시 인프라 직접 매치모프. <b>원본 Shot C(3D 놀이터·미끄럼틀) 완전 삭제.</b> Scene 06 반도체 회로 매치컷과 자연스럽게 연결. 러닝타임 11s → 7s (4초 감축).</div>
                         </details>
@@ -421,6 +449,7 @@ Aspect: 16:9, 1080p, 24fps.
 Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
 Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
 Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Location focus, final edit 00:25-00:26: Re-establish the lake edge and curved waterfront promenade of an imagined future Dongtan Lake Park. Caption 동탄호수공원 · 상상한 미래. The girl opens her sketchbook here; stay in the future plaza rather than returning to the classroom. Signage treatment: Start with the character gaze, rack focus to the landmark, hold readable for 1-1.5 seconds with low motion blur, then resume movement. Composite exact Korean place names and official logo artwork in editing rather than relying on generated lettering.
 Audio direction:
 child-girl-6-clear: Clear, soft Korean child girl character voice, natural and curious.
 Scene dialogue (distribute across this scene’s shots once, do not repeat in each shot): 서진 ·  voice: child-girl-6-clear :  &quot;우리 그림이 움직여!&quot; — 놀란 눈 Use Korean; no additional speech. Reuse the same approved voice reference per character in every scene. Guide and adult Seojin use the identical voice. Do not treat these editorial voice labels as API voice IDs.
@@ -436,6 +465,7 @@ Aspect: 16:9, 1080p, 24fps.
 Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
 Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
 Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Location focus, final edit 00:25-00:26: Re-establish the lake edge and curved waterfront promenade of an imagined future Dongtan Lake Park. Caption 동탄호수공원 · 상상한 미래. The girl opens her sketchbook here; stay in the future plaza rather than returning to the classroom. Signage treatment: Start with the character gaze, rack focus to the landmark, hold readable for 1-1.5 seconds with low motion blur, then resume movement. Composite exact Korean place names and official logo artwork in editing rather than relying on generated lettering.
 Audio direction:
 child-girl-6-clear: Clear, soft Korean child girl character voice, natural and curious.
 Scene dialogue (distribute across this scene’s shots once, do not repeat in each shot): 서진 ·  voice: child-girl-6-clear :  &quot;우리 그림이 움직여!&quot; — 놀란 눈 Use Korean; no additional speech. Reuse the same approved voice reference per character in every scene. Guide and adult Seojin use the identical voice. Do not treat these editorial voice labels as API voice IDs.</pre>
@@ -468,8 +498,12 @@ Scene dialogue (distribute across this scene’s shots once, do not repeat in ea
                             <span class="timecode">0:32–0:39</span>
                         </div>
                         <details open>
+                            <summary>📍 장소 포커스 · 0:32–0:33</summary>
+                            <div class="details-content"><strong>미래 반도체 연구 공간 · 창작 공간</strong><p>도시 도로선에서 웨이퍼 회로로 초점 전환. ‘미래 반도체 연구 공간’ 표시 후 엔지니어와 칩에 집중한다.</p></div>
+                        </details>
+                        <details open>
                             <summary>📷 카메라</summary>
-                            <div class="details-content">매치 컷 — 도시 도로선 → 반도체 회로 패턴. / 안내자가 홀로그램 AI 화면 + 반도체 칩. 코리요가 칩을 신기하게 들여다봄. / 와이드 — 미래 산업 풍경, SK하이닉스 로고.</div>
+                            <div class="details-content">매치 컷 — 도시 도로선 → 반도체 회로 패턴. / 안내자가 홀로그램 AI 화면 + 반도체 칩. 코리요가 칩을 신기하게 들여다봄. / 와이드 — 미래 연구 공간의 창밖 풍경.</div>
                         </details>
                         <details open>
                             <summary>🎥 영상 프롬프트</summary>
@@ -486,6 +520,7 @@ Aspect: 16:9, 1080p, 24fps.
 Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
 Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
 Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Location focus, final edit 00:32-00:33: Match the city road lines to wafer circuits and caption 미래 반도체 연구 공간. This is a fictional future lab; keep attention on the engineer and chip rather than a second company-logo montage. Signage treatment: Start with the character gaze, rack focus to the landmark, hold readable for 1-1.5 seconds with low motion blur, then resume movement. Composite exact Korean place names and official logo artwork in editing rather than relying on generated lettering.
 Audio direction:
 child-mascot-warm-bright: Bright, playful youthful Korean mascot voice, light and warm.
 adult-seojin-warm-25f: Calm, warm Korean woman in her mid-twenties, steady and reassuring.
@@ -494,7 +529,7 @@ Scene dialogue (distribute across this scene’s shots once, do not repeat in ea
 
 Shot 06-B (5s)
 Subject: The cleanroom-suited adult figure (face still hidden by hood) holds up a translucent holographic AI interface above their open palm; a small floating 3D chip model rotates slowly above the hand. Koriyo peers at the chip with enormous curious eyes, nose almost touching it.
-Action: Adult figure&#x27;s hand tilts slightly, chip hologram rotates; Koriyo&#x27;s star wand droops as it stares in wonder. Camera slowly orbits the hand 20 degrees. Wide shot pulls out at 4s to reveal a futuristic fab campus at sunset with &quot;SK Hynix&quot; logo faintly visible on a tower; overlay text appears: &quot;상상한 미래 모습&quot;.
+Action: Adult figure&#x27;s hand tilts slightly, chip hologram rotates; Koriyo&#x27;s star wand droops as it stares in wonder. Camera slowly orbits the hand 20 degrees. Wide shot pulls out at 4s to reveal a futuristic fab campus at sunset without an additional company-logo insert; overlay text appears: &quot;상상한 미래 모습&quot;.
 Scene: Fab lab interior transitioning to fab campus exterior.
 Camera: Orbit dolly 20°, then pull-out to wide.
 Lighting/Style: Cool blue lab light + warm amber city glow through the windows, holographic teal-cyan chip glow, cinematic composition, photorealistic.
@@ -503,6 +538,7 @@ Aspect: 16:9, 1080p, 24fps.
 Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
 Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
 Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Location focus, final edit 00:32-00:33: Match the city road lines to wafer circuits and caption 미래 반도체 연구 공간. This is a fictional future lab; keep attention on the engineer and chip rather than a second company-logo montage. Signage treatment: Start with the character gaze, rack focus to the landmark, hold readable for 1-1.5 seconds with low motion blur, then resume movement. Composite exact Korean place names and official logo artwork in editing rather than relying on generated lettering.
 Audio direction:
 child-mascot-warm-bright: Bright, playful youthful Korean mascot voice, light and warm.
 adult-seojin-warm-25f: Calm, warm Korean woman in her mid-twenties, steady and reassuring.
@@ -538,6 +574,10 @@ Scene dialogue (distribute across this scene’s shots once, do not repeat in ea
                             <span class="timecode">0:39–0:49</span>
                         </div>
                         <details open>
+                            <summary>📍 장소 포커스 · 0:39–0:40</summary>
+                            <div class="details-content"><strong>미래 팹의 클린룸 밖 탈의 공간 · 창작 공간</strong><p>‘클린룸 출입구’ 표식으로 공간만 짧게 확인한 뒤 얼굴과 ‘서진’ 사원증으로 초점을 옮긴다. 새 지명이나 기업 로고 강조는 줄여 반전에 집중한다.</p></div>
+                        </details>
+                        <details open>
                             <summary>📷 카메라</summary>
                             <div class="details-content">안내자 후드 벗기 슬로모션. / 인서트: ① 별 장식 ② '서진' 사원증 ③ 오래된 숙제장. / 리버스: 어린 서진 + 코리요의 반응. 코리요가 눈물 글썽. / 투 숏 + 코리요: 두 서진이 마주보고, 코리요가 둘 사이에서 두 손을 포개줌.</div>
                         </details>
@@ -556,6 +596,7 @@ Aspect: 16:9, 1080p, 24fps.
 Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
 Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
 Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Location focus, final edit 00:39-00:40: Briefly show 클린룸 출입구 at the fictional future gowning corridor outside the cleanroom, then focus on the face reveal and Seojin badge. Signage treatment: Start with the character gaze, rack focus to the landmark, hold readable for 1-1.5 seconds with low motion blur, then resume movement. Composite exact Korean place names and official logo artwork in editing rather than relying on generated lettering.
 Audio direction:
 child-mascot-warm-bright: Bright, playful youthful Korean mascot voice, light and warm.
 adult-seojin-warm-25f: Calm, warm Korean woman in her mid-twenties, steady and reassuring.
@@ -575,6 +616,7 @@ Aspect: 16:9, 1080p, 24fps.
 Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
 Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
 Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Location focus, final edit 00:39-00:40: Briefly show 클린룸 출입구 at the fictional future gowning corridor outside the cleanroom, then focus on the face reveal and Seojin badge. Signage treatment: Start with the character gaze, rack focus to the landmark, hold readable for 1-1.5 seconds with low motion blur, then resume movement. Composite exact Korean place names and official logo artwork in editing rather than relying on generated lettering.
 Audio direction:
 child-mascot-warm-bright: Bright, playful youthful Korean mascot voice, light and warm.
 adult-seojin-warm-25f: Calm, warm Korean woman in her mid-twenties, steady and reassuring.
@@ -613,6 +655,10 @@ Scene dialogue (distribute across this scene’s shots once, do not repeat in ea
                             <span class="timecode">0:49–0:51</span>
                         </div>
                         <details open>
+                            <summary>📍 장소 포커스 · 0:49–0:50</summary>
+                            <div class="details-content"><strong>동탄역으로 돌아오는 귀환 열차 · 창작 연결</strong><p>귀환 컷에 ‘동탄역 / Dongtan Station’ 표지를 잠깐 겹쳐 출발 장소와 연결한다.</p></div>
+                        </details>
+                        <details open>
                             <summary>📷 카메라</summary>
                             <div class="details-content">사이드 트래킹 — 서진+코리요가 나란히 귀환 열차. 코리요가 서진이 어깨에 기대어 졸음. 창밖 빛 되감김. 디졸브→유치원.</div>
                         </details>
@@ -631,6 +677,7 @@ Aspect: 16:9, 1080p, 24fps.
 Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
 Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
 Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Location focus, final edit 00:49-00:50: Briefly dissolve in a Dongtan Station arrival sign 동탄역 / Dongtan Station as the return train reaches the present. Signage treatment: Start with the character gaze, rack focus to the landmark, hold readable for 1-1.5 seconds with low motion blur, then resume movement. Composite exact Korean place names and official logo artwork in editing rather than relying on generated lettering.
 Audio direction:
 No dialogue; ambience and music only.</pre>
                             </div>
@@ -655,6 +702,10 @@ No dialogue; ambience and music only.</pre>
                             <span class="timecode">0:51–0:53</span>
                         </div>
                         <details open>
+                            <summary>📍 장소 포커스 · 0:51–0:52</summary>
+                            <div class="details-content"><strong>처음의 화성 유치원 · 창작 공간</strong><p>처음과 같은 창가·책상으로 귀환을 알린다. 지명 자막을 반복하지 않고 숙제 문장에 초점.</p></div>
+                        </details>
+                        <details open>
                             <summary>📷 카메라</summary>
                             <div class="details-content">ECU → 서진이 숙제장에 "내 미래는 우리 동네에 있어요" 쓰기. 숙제장 한쪽에 코리요 그림도 그려져 있음. 풀 숏으로.</div>
                         </details>
@@ -673,6 +724,7 @@ Aspect: 16:9, 1080p, 24fps.
 Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
 Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
 Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Location focus: Match the opening kindergarten window and desk so the audience recognizes the return to Hwaseong. Keep the homework sentence as the focal point; no additional place caption. Signage treatment: Start with the character gaze, rack focus to the landmark, hold readable for 1-1.5 seconds with low motion blur, then resume movement. Composite exact Korean place names and official logo artwork in editing rather than relying on generated lettering.
 Audio direction:
 child-girl-6-clear: Clear, soft Korean child girl character voice, natural and curious.
 Scene dialogue (distribute across this scene’s shots once, do not repeat in each shot): 서진(V.O.) ·  voice: child-girl-6-clear :  &quot;내 미래는 우리 동네에 있어요.&quot; — 조용하지만 확신에 찬 아이 목소리 Use Korean; no additional speech. Reuse the same approved voice reference per character in every scene. Guide and adult Seojin use the identical voice. Do not treat these editorial voice labels as API voice IDs.</pre>
@@ -698,6 +750,10 @@ Scene dialogue (distribute across this scene’s shots once, do not repeat in ea
                             <span class="timecode">0:53–0:54</span>
                         </div>
                         <details open>
+                            <summary>📍 장소 포커스 · 0:53–0:54</summary>
+                            <div class="details-content"><strong>동탄호수공원 야경을 모티프로 한 엔딩</strong><p>호수의 반사광을 짧게 보여 준 뒤 ‘화성특례시’ 엔딩 표기로 닫는다.</p></div>
+                        </details>
+                        <details open>
                             <summary>📷 카메라</summary>
                             <div class="details-content">숙제장 그림이 빛남. 코리요 그림도 함께 반짝. 실제 화성시 야경과 더블 익스포저. 페이드 투 화이트.</div>
                         </details>
@@ -716,6 +772,7 @@ Aspect: 16:9, 1080p, 24fps.
 Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
 Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
 Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Location focus: Echo Dongtan Lake Park waterfront reflections in the closing night view, then use the final Hwaseong title. The final edit remains 00:53-00:54. Signage treatment: Start with the character gaze, rack focus to the landmark, hold readable for 1-1.5 seconds with low motion blur, then resume movement. Composite exact Korean place names and official logo artwork in editing rather than relying on generated lettering.
 Audio direction:
 child-mascot-warm-bright: Bright, playful youthful Korean mascot voice, light and warm.
 Scene dialogue (distribute across this scene’s shots once, do not repeat in each shot): 대사 없음 Use Korean; no additional speech. Reuse the same approved voice reference per character in every scene. Guide and adult Seojin use the identical voice. Do not treat these editorial voice labels as API voice IDs.</pre>
