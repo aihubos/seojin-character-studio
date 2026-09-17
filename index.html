@@ -26,12 +26,13 @@
             <div class="hero-content">
                 <span class="eyebrow">2026 별별화성 AWARDS · AI CF</span>
                 <h1 class="title">오늘의 그림,<br>내일의 빛.</h1>
-                <p class="subtitle">작품명 "오늘의 그림, 내일의 빛" — 58초 AI CF.<br>서진이와 코리요가 함께 떠나는 시간 여행.</p>
-                
+                <p class="subtitle">작품명 "오늘의 그림, 내일의 빛" — 54초 AI CF 콘티 (Seedance 2.5용).<br>서진이와 코리요가 함께 떠나는 시간 여행.</p>
+
                 <div class="badges">
-                    <span class="badge">10 씬 · 58초</span>
+                    <span class="badge">10 씬 · 54초</span>
                     <span class="badge badge-accent">코리요 + 서진이</span>
-                    <span class="badge">AI 영상 프롬프트</span>
+                    <span class="badge">Seedance 2.5</span>
+                    <span class="badge">보이스 지정 4종</span>
                     <span class="badge">16:9 · 1080p</span>
                 </div>
 
@@ -69,7 +70,7 @@
                         </div>
                         <div class="card-content">
                             <h3>어른 서진 (25세)</h3>
-                            <p>AI·반도체 엔지니어 · 베이지 셔츠 · 삼성 사원증</p>
+                            <p>AI로 상상한 25세 모습 · AI·반도체 엔지니어 · 베이지 셔츠 · 삼성 사원증</p>
                         </div>
                     </div>
 
@@ -94,7 +95,7 @@
                         </div>
                         <div class="meta-card">
                             <span class="meta-label">러닝타임 / 해상도</span>
-                            <span class="meta-value">58초 | 1920×1080 (16:9) | MP4</span>
+                            <span class="meta-value">54초 | 1920×1080 (16:9) | MP4 · Seedance 2.5</span>
                         </div>
                         <div class="meta-card">
                             <span class="meta-label">톤 & 무드</span>
@@ -120,47 +121,61 @@
                         <div class="emotion-bar">
                             <div class="emotion-segment" style="flex: 11" title="호기심(0–11)">호기심</div>
                             <div class="emotion-segment" style="flex: 14" title="경이(11–25)">경이</div>
-                            <div class="emotion-segment" style="flex: 11" title="환희(25–36)">환희</div>
-                            <div class="emotion-segment" style="flex: 7" title="존경(36–43)">존경</div>
-                            <div class="emotion-segment" style="flex: 10" title="감동(43–53)">감동</div>
-                            <div class="emotion-segment" style="flex: 5" title="여운(53–58)">여운</div>
+                            <div class="emotion-segment" style="flex: 7" title="환희(25–32)">환희</div>
+                            <div class="emotion-segment" style="flex: 7" title="존경(32–39)">존경</div>
+                            <div class="emotion-segment" style="flex: 10" title="감동(39–49)">감동</div>
+                            <div class="emotion-segment" style="flex: 5" title="여운(49–54)">여운</div>
                         </div>
                     </div>
                 </div>
 
-                <div class="scenes mt-12">
+                <div class="logline-card mt-8" id="voices"><h3>캐릭터별 고정 보이스</h3><p>같은 캐릭터는 모든 씬에서 같은 음성 레퍼런스를 사용합니다. 안내자와 어른 서진은 동일 보이스입니다.</p><table><thead><tr><th>인물</th><th>고정 코드</th><th>연기 기준</th></tr></thead><tbody><tr><td>교사</td><td><code>teacher-warm-30f</code></td><td>따뜻한 30대 여성, 또렷하고 편안한 한국어</td></tr><tr><td>코리요</td><td><code>child-mascot-warm-bright</code></td><td>밝고 통통 튀는 어린 마스코트, 경쾌한 한국어</td></tr><tr><td>어린 서진</td><td><code>child-girl-6-clear</code></td><td>맑고 부드러운 6세 여아 캐릭터, 자연스러운 한국어</td></tr><tr><td>어른 서진 / 안내자</td><td><code>adult-seojin-warm-25f</code></td><td>차분하고 따뜻한 25세 여성, 안정된 한국어</td></tr></tbody></table><p class="text-sm">위 코드는 제작용 이름이며 실제 서비스의 voice ID가 아닙니다. 음성 샘플·TTS 등록·파일럿 영상은 아직 제작되지 않았습니다. 프롬프트만으로 목소리 일치가 보장되지는 않으므로 첫 샘플 확정 후 같은 음원을 재사용합니다.</p><p class="text-sm">각 Shot의 5초는 편집용 생성 단위입니다. 최종 목표는 54초·16:9·1080p·24fps이며 제공 서비스의 출력 설정에 맞춰 편집합니다. <a href="https://seed.bytedance.com/en/seedance2_5">Seedance 2.5 공식 안내</a></p><p class="text-sm">SCENE 09 내레이션은 귀환 장면부터 49–53초에 걸쳐 이어 읽습니다. 나머지 대사는 실제 낭독 후 씬 안에서 조정합니다.</p><a href="VOICE_PRESETS_SEOJIN.json" download>보이스 지정표 JSON 다운로드</a></div>
+<div class="scenes mt-12">
                     <!-- SCENE 01 -->
                     <div class="card scene-card reveal">
                         <div class="scene-header">
                             <h3>SCENE 01 · 숙제</h3>
                             <span class="timecode">0:00–0:05</span>
                         </div>
-                        <details>
+                        <details open>
                             <summary>📷 카메라</summary>
                             <div class="details-content">ECU → 크레용이 종이 위에 놓이는 순간. 셸로우 DOF. / 와이드 숏, 유치원 교실. 골든아워 햇살.</div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🎥 영상 프롬프트</summary>
                             <div class="details-content code-block">
                                 <button class="copy-btn">복사</button>
-                                <pre>Cinematic close-up of a child's hand placing a yellow crayon on white paper in a kindergarten classroom. Golden hour sunlight streaming through large windows, lens flare. Shallow depth of field, bokeh background with colorful children's drawings on the wall. Camera: slight dolly in. Film grain, warm color grading. 16:9, photorealistic, 24fps.</pre>
+                                <pre>Shot 01-A (5s)
+Subject: A six-year-old Korean girl&#x27;s small hand (child Seojin, short black bob, pale yellow t-shirt sleeve visible) placing a bright yellow crayon onto a clean sheet of white drawing paper.
+Action: Hand enters frame from lower-right, gently sets the crayon down, index finger lifts, the crayon rolls a quarter turn and stops.
+Scene: Kindergarten classroom desk. Colorful children&#x27;s crayon drawings pinned on a cork board in the background (soft bokeh). Wooden desk surface with faint pencil marks.
+Camera: Cinematic close-up, macro lens 50mm feel, slight dolly-in 10cm, focus locked on crayon tip, shallow depth of field f/2.0.
+Lighting/Style: Golden hour sunlight streaming through large windows on the left, soft warm bokeh, subtle lens flare, gentle film grain, warm color grading (teal-orange bias toward orange), photorealistic.
+Character anchor: Child Seojin, 6yo Korean girl, short black bob, pale yellow t-shirt, beige shorts (only hand and sleeve visible in this shot).
+Aspect: 16:9, 1080p, 24fps.
+Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
+Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
+Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Audio direction:
+teacher-warm-30f: Warm Korean female teacher in her 30s, clear and gentle.
+Scene dialogue (distribute across this scene’s shots once, do not repeat in each shot): 선생님(V.O.) ·  voice: teacher-warm-30f :  &quot;우리 동네의 내일을 그려 오세요.&quot; — 따뜻하고 명랑 Use Korean; no additional speech. Reuse the same approved voice reference per character in every scene. Guide and adult Seojin use the identical voice. Do not treat these editorial voice labels as API voice IDs.</pre>
                             </div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🖼 레퍼런스</summary>
                             <div class="details-content code-block">
                                 <button class="copy-btn">복사</button>
                                 <pre>Wide shot of a bright Korean kindergarten classroom, late afternoon golden sunlight. A 6-year-old Korean girl with short black bob hair, pale yellow t-shirt, sits looking up curiously. Cinematic lighting.</pre>
                             </div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🎙 대사 & 📝 자막</summary>
                             <div class="details-content">
-                                <p><strong>선생님(V.O.):</strong> "우리 동네의 내일을 그려 오세요." — 따뜻하고 명랑</p>
+                                <p><strong>선생님(V.O.) · <code>voice: teacher-warm-30f</code>:</strong> "우리 동네의 내일을 그려 오세요." — 따뜻하고 명랑</p>
                                 <p class="text-sm text-gray">자막: 없음</p>
                             </div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🔊 사운드</summary>
                             <div class="details-content">크레용 소리 + 아이들 웃음 + 피아노 첫 음</div>
                         </details>
@@ -172,36 +187,65 @@
                             <h3>SCENE 02 · 코리요의 등장</h3>
                             <span class="timecode">0:05–0:11</span>
                         </div>
-                        <details>
+                        <details open>
                             <summary>📷 카메라</summary>
                             <div class="details-content">탑다운 → 서진이가 숙제장에 화성 풍경을 그린다. 크레용 선이 살짝 빛난다. / 종이 위에서 코리요가 빼꼼 나타남. 작은 반짝 이펙트. 서진이와 눈높이를 맞추며 손을 내밀고, 별봉을 흔들자 호수공원 풍경이 빛으로 바뀜. GTX 동탄역으로 함께 달려간다.</div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🎥 영상 프롬프트</summary>
                             <div class="details-content code-block">
                                 <button class="copy-btn">복사</button>
-                                <pre>[Shot A] Top-down shot of a child drawing Hwaseong scenery with crayons. The lines begin to softly glow golden. A small round yellow character (Koriyo — round yellow body, orange head spikes, small black oval eyes, soft 3D texture, carrying a star wand) pops up from the drawing, breaking through the paper surface with sparkle effects.
+                                <pre>Shot 02-A (5s)
+Subject: A six-year-old Korean girl (child Seojin) drawing Hwaseong scenery — rolling hills, a lake, a small train — with wax crayons on white paper.
+Action: The crayon lines on the paper begin to shimmer and softly glow warm gold. From the center of the drawing, a small round yellow mascot character (Koriyo) pushes up through the paper surface with sparkling particle effects, breaking the plane like water; Koriyo lifts its star wand and blinks twice.
+Scene: Top-down (bird&#x27;s-eye) view of the desk. Paper fills 70% of frame. Wooden desk edges visible.
+Camera: Fixed top-down shot, subtle 5% zoom-in over 5 seconds, no rotation.
+Lighting/Style: Warm cinematic key light from upper-left, golden sparkle particles, photorealistic paper with 3D-integrated mascot, film grain low.
+Character anchor: Koriyo — round yellow spherical body, orange short spike tuft on top of head, small oval black eyes, soft matte 3D texture, holding a small five-point star wand. Child Seojin — 6yo, short black bob, pale yellow t-shirt, beige shorts, star-decorated bag on chair back (only hands visible in this shot).
+Aspect: 16:9, 1080p, 24fps.
+Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
+Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
+Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Audio direction:
+child-mascot-warm-bright: Bright, playful youthful Korean mascot voice, light and warm.
+child-girl-6-clear: Clear, soft Korean child girl character voice, natural and curious.
+Scene dialogue (distribute across this scene’s shots once, do not repeat in each shot): 코리요 ·  voice: child-mascot-warm-bright :  &quot;네 생각, 같이 키워 볼까?&quot; — 밝고 장난스러운 톤
+                                 서진 ·  voice: child-girl-6-clear :  &quot;코리요! 같이 가자!&quot; — 들뜬 목소리 Use Korean; no additional speech. Reuse the same approved voice reference per character in every scene. Guide and adult Seojin use the identical voice. Do not treat these editorial voice labels as API voice IDs.
 
-[Shot B] Eye-level shot: Koriyo and the girl make eye contact. Koriyo extends a small hand. The star wand glows. The park scenery transforms into streams of warm light. They run together toward a futuristic GTX train station, hand in hand.
-16:9, warm cinematic lighting, photorealistic with 3D character integration.</pre>
+Shot 02-B (5s)
+Subject: Koriyo and child Seojin standing in a bright park that is dissolving into ribbons of warm light.
+Action: Eye-level two-shot. Koriyo extends a small right hand toward the girl; the star wand in its left hand glows brighter. Girl reaches back. Park bench, trees, lampposts behind them dematerialize into streaming amber-gold particles. They begin to run together to the right toward a distant futuristic GTX train station platform, hand in hand.
+Scene: Hwaseong City neighborhood park in early evening, transitioning into a warp of light.
+Camera: Eye-level medium shot, slight handheld sway, 35mm equivalent, dolly follows them for the last 2 seconds.
+Lighting/Style: Warm cinematic lighting, golden hour amber, volumetric light rays, particle streams, photorealistic with 3D character integration, subtle motion blur on running.
+Character anchor: Koriyo — round yellow body, orange spikes, black oval eyes, star wand. Child Seojin — 6yo Korean girl, short black bob, pale yellow t-shirt, beige shorts, star-decorated bag.
+Aspect: 16:9, 1080p, 24fps.
+Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
+Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
+Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Audio direction:
+child-mascot-warm-bright: Bright, playful youthful Korean mascot voice, light and warm.
+child-girl-6-clear: Clear, soft Korean child girl character voice, natural and curious.
+Scene dialogue (distribute across this scene’s shots once, do not repeat in each shot): 코리요 ·  voice: child-mascot-warm-bright :  &quot;네 생각, 같이 키워 볼까?&quot; — 밝고 장난스러운 톤
+                                 서진 ·  voice: child-girl-6-clear :  &quot;코리요! 같이 가자!&quot; — 들뜬 목소리 Use Korean; no additional speech. Reuse the same approved voice reference per character in every scene. Guide and adult Seojin use the identical voice. Do not treat these editorial voice labels as API voice IDs.</pre>
                             </div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🖼 레퍼런스</summary>
                             <div class="details-content code-block">
                                 <button class="copy-btn">복사</button>
                                 <pre>A round yellow mascot character with orange head spikes and a star wand appears magically from a child's crayon drawing. Sparkle effects around the character. A 6-year-old Korean girl looks at it with wonder. Kindergarten classroom, golden hour. Mixed media aesthetic.</pre>
                             </div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🎙 대사 & 📝 자막</summary>
                             <div class="details-content">
-                                <p><strong>코리요:</strong> "네 생각, 같이 키워 볼까?" — 밝고 장난스러운 톤<br>
-                                <strong>서진:</strong> "코리요! 같이 가자!" — 들뜬 목소리</p>
+                                <p><strong>코리요 · <code>voice: child-mascot-warm-bright</code>:</strong> "네 생각, 같이 키워 볼까?" — 밝고 장난스러운 톤<br>
+                                <strong>서진 · <code>voice: child-girl-6-clear</code>:</strong> "코리요! 같이 가자!" — 들뜬 목소리</p>
                                 <p class="text-sm text-gray">자막: 네 생각, 같이 키워 볼까? (하단 중앙)</p>
                             </div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🔊 사운드</summary>
                             <div class="details-content">종이 바스락 → 반짝 효과음 → 코리요 등장 징글 → 트램 벨 + 피아노 멜로디</div>
                         </details>
@@ -213,38 +257,70 @@
                             <h3>SCENE 03 · 시간의 문 ⭐</h3>
                             <span class="timecode">0:11–0:18</span>
                         </div>
-                        <details>
+                        <details open>
                             <summary>📷 카메라</summary>
                             <div class="details-content">서진+코리요 POV — GTX 창밖 빛 입자 해체. 스피드 램프. / 크로스 디졸브 — 반도체 팹 클린룸 출구. 유리 너머 웨이퍼 이송 장비 실루엣. 방진복 완전 착용 인물 역광 등장. / 로우앵글 — 방진복 인물이 빛의 경계를 넘어 서진+코리요 앞에. 코리요가 서진이 뒤에 숨으며 살짝 떨림.</div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🎥 영상 프롬프트</summary>
                             <div class="details-content code-block">
                                 <button class="copy-btn">복사</button>
-                                <pre>[Shot A] First-person POV from inside a train. A child and a round yellow mascot character sit together. The landscape dissolves into luminous particles — amber, gold, white. Speed ramp: slow → fast → slow. Warp tunnel effect.
+                                <pre>Shot 03-A (5s)
+Subject: First-person POV from inside a moving futuristic train car; child Seojin and Koriyo sit side-by-side on a light-gray seat, facing forward toward the window.
+Action: Outside the window, the daytime landscape dissolves into luminous amber, gold, and white particles. Speed ramp: slow (0-1s) → very fast warp (1s-3.5s) → slow (3.5s-5s). A soft warp-tunnel spiral forms.
+Scene: Clean minimalist train interior with soft ambient LED strips.
+Camera: Forward-facing POV, locked position, 24mm wide, subtle vibration.
+Lighting/Style: Cool white interior + warm particle exterior contrast, high dynamic range, cinematic motion blur, photorealistic.
+Character anchor: Koriyo (visible right side of frame, buckled beside girl) — round yellow body, orange spikes, star wand resting on lap. Child Seojin (visible left) — short black bob, pale yellow t-shirt.
+Aspect: 16:9, 1080p, 24fps.
+Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
+Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
+Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Audio direction:
+child-mascot-warm-bright: Bright, playful youthful Korean mascot voice, light and warm.
+adult-seojin-warm-25f: Calm, warm Korean woman in her mid-twenties, steady and reassuring.
+child-girl-6-clear: Clear, soft Korean child girl character voice, natural and curious.
+Scene dialogue (distribute across this scene’s shots once, do not repeat in each shot): 코리요 ·  voice: child-mascot-warm-bright :  &quot;저 사람... 뭔가 특별해 보여!&quot; — 속삭이듯 흥분
+                                 서진 ·  voice: child-girl-6-clear :  &quot;우주인이에요?&quot;
+                                 안내자 ·  voice: adult-seojin-warm-25f  (동일 보이스 유지, 마스크 효과는 후편집):  &quot;네 내일을 만나러 갈래?&quot; Use Korean; no additional speech. Reuse the same approved voice reference per character in every scene. Guide and adult Seojin use the identical voice. Do not treat these editorial voice labels as API voice IDs.
 
-[Shot B] Semiconductor fab cleanroom exit corridor. Glass walls show blurred FOUP carriers. Door opens — bright white light. A figure in full cleanroom bunny suit walks forward in silhouette, backlit. Samsung logo on suit. Mysterious, cool blue-white palette.
-
-[Shot C] Low-angle: the cleanroom figure steps through volumetric light. A small girl and a round yellow character look up. Koriyo hides slightly behind the girl, peeking out nervously. Two silhouettes + one small character framed together. Face hidden. Dramatic chiaroscuro.</pre>
+Shot 03-B (5s)
+Subject: A semiconductor fabrication cleanroom exit corridor, glass-walled; a silhouetted human figure in a full white cleanroom bunny suit walks forward toward camera through opening automatic doors flooded with white light. Behind glass, blurred FOUP wafer carriers move on overhead tracks.
+Action: The automatic doors part; volumetric light spills out; the bunny-suited figure steps forward in slow, deliberate strides, backlit as a silhouette. The camera cranes down slightly to a low angle. Child Seojin and Koriyo enter from the bottom of the frame in silhouette; Koriyo hides slightly behind the girl and peeks out with a small nervous tilt.
+Scene: Samsung-style fab cleanroom exit corridor, cool blue-white palette, subtle Samsung logo patch visible on bunny suit shoulder.
+Camera: Low-angle wide shot, slow crane down 30cm over the 5 seconds, 35mm equivalent, deep focus.
+Lighting/Style: Cool white key + blue rim light, strong backlight through doorway (blown highlights), dramatic chiaroscuro, cinematic photorealistic, film grain low.
+Character anchor: Adult Seojin (25yo Korean woman, short black hair, gentle eyes) — face fully hidden by the cleanroom hood in this shot, star charm bracelet not visible yet. Koriyo — round yellow body, orange spikes, black oval eyes, star wand dimmed. Child Seojin — 6yo, short black bob, pale yellow t-shirt.
+Aspect: 16:9, 1080p, 24fps.
+Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
+Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
+Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Audio direction:
+child-mascot-warm-bright: Bright, playful youthful Korean mascot voice, light and warm.
+adult-seojin-warm-25f: Calm, warm Korean woman in her mid-twenties, steady and reassuring.
+child-girl-6-clear: Clear, soft Korean child girl character voice, natural and curious.
+Scene dialogue (distribute across this scene’s shots once, do not repeat in each shot): 코리요 ·  voice: child-mascot-warm-bright :  &quot;저 사람... 뭔가 특별해 보여!&quot; — 속삭이듯 흥분
+                                 서진 ·  voice: child-girl-6-clear :  &quot;우주인이에요?&quot;
+                                 안내자 ·  voice: adult-seojin-warm-25f  (동일 보이스 유지, 마스크 효과는 후편집):  &quot;네 내일을 만나러 갈래?&quot; Use Korean; no additional speech. Reuse the same approved voice reference per character in every scene. Guide and adult Seojin use the identical voice. Do not treat these editorial voice labels as API voice IDs.</pre>
                             </div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🖼 레퍼런스</summary>
                             <div class="details-content code-block">
                                 <button class="copy-btn">복사</button>
                                 <pre>Dramatic cinematic frame: tall figure in white cleanroom suit in a doorway of brilliant light. Volumetric fog. In foreground, a small girl and a round yellow mascot character look up in wonder. The mascot peeks from behind the girl nervously. Film noir meets sci-fi. 16:9.</pre>
                             </div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🎙 대사 & 📝 자막</summary>
                             <div class="details-content">
-                                <p><strong>코리요:</strong> "저 사람... 뭔가 특별해 보여!" — 속삭이듯 흥분<br>
-                                <strong>서진:</strong> "우주인이에요?"<br>
-                                <strong>안내자:</strong> "네 내일을 만나러 갈래?"</p>
+                                <p><strong>코리요 · <code>voice: child-mascot-warm-bright</code>:</strong> "저 사람... 뭔가 특별해 보여!" — 속삭이듯 흥분<br>
+                                <strong>서진 · <code>voice: child-girl-6-clear</code>:</strong> "우주인이에요?"<br>
+                                <strong>안내자 · <code>voice: adult-seojin-warm-25f</code> (동일 보이스 유지, 마스크 효과는 후편집):</strong> "네 내일을 만나러 갈래?"</p>
                                 <p class="text-sm text-gray">자막: 대화형 — 좌/우 오프셋 화자 구분</p>
                             </div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🔊 사운드</summary>
                             <div class="details-content">열차 소음 → 리버스 심벌 → 에어록 소리 → 발걸음 에코 + 스트링 트레몰로</div>
                         </details>
@@ -256,121 +332,200 @@
                             <h3>SCENE 04 · 미래 화성</h3>
                             <span class="timecode">0:18–0:25</span>
                         </div>
-                        <details>
+                        <details open>
                             <summary>📷 카메라</summary>
                             <div class="details-content">드론 숏 — 미래 화성시 조감도. / 서진+코리요+안내자 함께 걸으며 SAMSUNG·ASML 건물 표식. 코리요가 건물 사이를 뛰어다니며 신나함. / 서진의 눈동자 리플렉션.</div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🎥 영상 프롬프트</summary>
                             <div class="details-content code-block">
                                 <button class="copy-btn">복사</button>
-                                <pre>[Shot A] Sweeping aerial shot of futuristic Hwaseong City. Green parks, curved glass buildings, elevated tram. Golden hour, utopian aesthetic.
+                                <pre>Shot 04-A (5s)
+Subject: Aerial cinematic view of a futuristic Hwaseong City skyline.
+Action: Sweeping right-to-left aerial pan over the city. Elevated trams glide between curved glass towers; wide green parks and tree-lined avenues sit between buildings; solar canopies shimmer on rooftops.
+Scene: Utopian near-future Korean city — a blend of coastal wetland curves and glass biomimetic architecture. &quot;SAMSUNG&quot; and &quot;ASML&quot; building signage visible on two tall towers.
+Camera: Aerial drone shot, gentle right-to-left arc, altitude 200m equivalent, 24mm wide, subtle parallax.
+Lighting/Style: Golden hour, warm amber tones, volumetric haze, photorealistic, cinematic color grade, film grain low.
+Character anchor: (no characters in frame)
+Aspect: 16:9, 1080p, 24fps.
+Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
+Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
+Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Audio direction:
+child-mascot-warm-bright: Bright, playful youthful Korean mascot voice, light and warm.
+child-girl-6-clear: Clear, soft Korean child girl character voice, natural and curious.
+Scene dialogue (distribute across this scene’s shots once, do not repeat in each shot): 코리요 ·  voice: child-mascot-warm-bright :  &quot;와! 우리 동네가 이렇게 됐어!&quot; — 눈 반짝
+                                 서진 ·  voice: child-girl-6-clear :  &quot;여기가… 우리 동네?&quot; Use Korean; no additional speech. Reuse the same approved voice reference per character in every scene. Guide and adult Seojin use the identical voice. Do not treat these editorial voice labels as API voice IDs.
 
-[Shot B] Three figures walk together — a small girl, a round yellow mascot bouncing excitedly between buildings, and a tall cleanroom-suited figure. "SAMSUNG" and "ASML" signage on facades. Koriyo points excitedly at everything. Warm amber tones.
-
-[Shot C] Extreme close-up of child's eye reflecting the futuristic cityscape. Macro lens, warm golden iris highlights.</pre>
+Shot 04-B (5s)
+Subject: Three figures — child Seojin, Koriyo, and the tall cleanroom-suited adult Seojin — walking together down a wide pedestrian avenue in future Hwaseong.
+Action: Steady tracking shot from the front. Koriyo bounces excitedly between the two humans, pointing its star wand at buildings; child Seojin walks with wide-eyed wonder; the cleanroom-suited figure walks tall and calm at her side. Camera intercuts a brief 1-second extreme close-up of child Seojin&#x27;s right eye reflecting the cityscape (macro lens, warm iris highlights).
+Scene: Wide pedestrian avenue, &quot;SAMSUNG&quot; and &quot;ASML&quot; facade signage in soft background focus.
+Camera: Front tracking dolly, 35mm equivalent, then cut to eye macro at 4s.
+Lighting/Style: Warm amber golden-hour tones, soft volumetric light, photorealistic, cinematic.
+Character anchor: Koriyo — round yellow body, orange spikes, star wand. Child Seojin — 6yo, short black bob, pale yellow t-shirt, beige shorts, star-decorated bag. Cleanroom figure — full white bunny suit, face hidden, Samsung shoulder patch.
+Aspect: 16:9, 1080p, 24fps.
+Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
+Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
+Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Audio direction:
+child-mascot-warm-bright: Bright, playful youthful Korean mascot voice, light and warm.
+child-girl-6-clear: Clear, soft Korean child girl character voice, natural and curious.
+Scene dialogue (distribute across this scene’s shots once, do not repeat in each shot): 코리요 ·  voice: child-mascot-warm-bright :  &quot;와! 우리 동네가 이렇게 됐어!&quot; — 눈 반짝
+                                 서진 ·  voice: child-girl-6-clear :  &quot;여기가… 우리 동네?&quot; Use Korean; no additional speech. Reuse the same approved voice reference per character in every scene. Guide and adult Seojin use the identical voice. Do not treat these editorial voice labels as API voice IDs.</pre>
                             </div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🖼 레퍼런스</summary>
                             <div class="details-content code-block">
                                 <button class="copy-btn">복사</button>
                                 <pre>Futuristic eco-city Hwaseong 2040. Curved glass buildings, greenery, elevated monorail. Samsung/ASML campus. A small girl, a round yellow mascot, and a suited figure walk together. Studio Ghibli meets modern architecture. 16:9.</pre>
                             </div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🎙 대사 & 📝 자막</summary>
                             <div class="details-content">
-                                <p><strong>코리요:</strong> "와! 우리 동네가 이렇게 됐어!" — 눈 반짝<br>
-                                <strong>서진:</strong> "여기가… 우리 동네?"</p>
+                                <p><strong>코리요 · <code>voice: child-mascot-warm-bright</code>:</strong> "와! 우리 동네가 이렇게 됐어!" — 눈 반짝<br>
+                                <strong>서진 · <code>voice: child-girl-6-clear</code>:</strong> "여기가… 우리 동네?"</p>
                                 <p class="text-sm text-gray">자막: 여기가… 우리 동네? (하단 중앙)</p>
                             </div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🔊 사운드</summary>
                             <div class="details-content">바람 + 미래 도시 앰비언스 + 마림바 시작</div>
                         </details>
                     </div>
 
-                    <!-- SCENE 05 -->
+                    <!-- SCENE 05 · ★ 놀이터 씬 삭제 반영 -->
                     <div class="card scene-card reveal">
                         <div class="scene-header">
-                            <h3>SCENE 05 · 그림이 세계가 되다</h3>
-                            <span class="timecode">0:25–0:36</span>
+                            <h3>SCENE 05 · 그림이 세계가 되다 <span class="badge badge-accent" style="margin-left:8px;font-size:0.7em;">놀이터 씬 삭제</span></h3>
+                            <span class="timecode">0:25–0:32</span>
                         </div>
-                        <details>
+                        <details open>
                             <summary>📷 카메라</summary>
-                            <div class="details-content">탑다운 — 서진이 숙제장에 그림. 코리요가 옆에서 별봉으로 색을 더해줌. / 세계 아이들이 그림 보태기. / 풀 CG — 그림이 3D 놀이터로 변환. 코리요가 미끄럼틀 시범을 보이다 멈칫하고 서진이가 웃음.</div>
+                            <div class="details-content">탑다운 — 서진이 숙제장에 그림. 코리요가 옆에서 별봉으로 색을 더해줌. / 그림→도시 인프라 직접 매치모프. <b>원본 Shot C(3D 놀이터·미끄럼틀) 완전 삭제.</b> Scene 06 반도체 회로 매치컷과 자연스럽게 연결. 러닝타임 11s → 7s (4초 감축).</div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🎥 영상 프롬프트</summary>
                             <div class="details-content code-block">
                                 <button class="copy-btn">복사</button>
-                                <pre>[Shot A] Top-down: child draws on sketchbook — dinosaur egg curves, tidal flat channels, lake ripples. Next to her, a round yellow mascot waves its star wand, adding glowing golden accents to the drawings. ASMR detail.
+                                <pre>Shot 05-A (5s)
+Subject: Top-down close-up of child Seojin&#x27;s hands drawing on a sketchbook — flowing curves resembling dinosaur egg silhouettes (Hwaseong dinosaur egg fossil motifs), tidal flat channels, and lake ripples. Beside her hands, Koriyo waves its star wand over the paper.
+Action: Crayon strokes accumulate rhythmically; Koriyo&#x27;s star wand tip touches the paper and each touched line lights up with warm golden particles. ASMR-level micro detail on crayon-on-paper texture.
+Scene: Future Hwaseong pedestrian plaza; the girl opens her sketchbook at a bench, warm daylight from left.
+Camera: Fixed top-down shot, very slow 3% push-in, macro-leaning framing.
+Lighting/Style: Warm daylight, soft shadows, golden particle accents, photorealistic paper fibers, film grain low.
+Character anchor: Koriyo — round yellow body, orange spikes, black oval eyes, five-point star wand. Child Seojin — 6yo, short black bob, pale yellow t-shirt (only hands visible).
+Aspect: 16:9, 1080p, 24fps.
+Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
+Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
+Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Audio direction:
+child-girl-6-clear: Clear, soft Korean child girl character voice, natural and curious.
+Scene dialogue (distribute across this scene’s shots once, do not repeat in each shot): 서진 ·  voice: child-girl-6-clear :  &quot;우리 그림이 움직여!&quot; — 놀란 눈 Use Korean; no additional speech. Reuse the same approved voice reference per character in every scene. Guide and adult Seojin use the identical voice. Do not treat these editorial voice labels as API voice IDs.
 
-[Shot B] Montage: children from diverse countries add drawings. Match cuts between hands.
-
-[Shot C] Crayon lines glow and lift into 3D structures — a magical playground. Koriyo slides down a dinosaur-egg slide, wobbles and stops mid-slide with a surprised expression. The girl laughs. Volumetric lighting, particles, warm atmosphere.</pre>
+Shot 05-B (5s)
+Subject: The child&#x27;s crayon drawing on paper transforms directly into the future Hwaseong cityscape — curves become boulevards, ripples become tram lines, dinosaur-egg silhouettes become the city&#x27;s landmark domes.
+Action: Match-morph: golden crayon lines lift 5mm off the paper, then the camera pushes through the paper as the drawing dissolves upward into a full 3D aerial establishing shot of the futuristic Hwaseong city. No playground, no rides — direct paper-to-city morph.
+Scene: Top-down sketchbook → aerial city (transition happens at ~2.5s).
+Camera: Push-in through the paper (dolly + zoom hybrid), then smooth crane up into aerial 200m altitude.
+Lighting/Style: Warm particle transition, golden dissolve, volumetric light, photorealistic, cinematic grade.
+Character anchor: (characters exit at 1s, only environments remain)
+Aspect: 16:9, 1080p, 24fps.
+Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
+Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
+Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Audio direction:
+child-girl-6-clear: Clear, soft Korean child girl character voice, natural and curious.
+Scene dialogue (distribute across this scene’s shots once, do not repeat in each shot): 서진 ·  voice: child-girl-6-clear :  &quot;우리 그림이 움직여!&quot; — 놀란 눈 Use Korean; no additional speech. Reuse the same approved voice reference per character in every scene. Guide and adult Seojin use the identical voice. Do not treat these editorial voice labels as API voice IDs.</pre>
                             </div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🖼 레퍼런스</summary>
                             <div class="details-content code-block">
                                 <button class="copy-btn">복사</button>
-                                <pre>Magical playground from crayon drawings. A round yellow mascot slides down a dinosaur-egg slide looking surprised. A girl laughs nearby. Mixed media — 2D crayon lines becoming 3D. Golden light, dreamy. 16:9.</pre>
+                                <pre>Match-morph reference: a child's crayon sketchbook drawing of Hwaseong scenery transforms directly into an aerial view of a futuristic city. Golden particle dissolve, no playground, no rides. Warm cinematic, photorealistic. 16:9.</pre>
                             </div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🎙 대사 & 📝 자막</summary>
                             <div class="details-content">
-                                <p><strong>코리요:</strong> "미끄럼틀이다! 내가 먼저— 어어?!" — 엉뚱하게 멈춤<br>
-                                <strong>서진:</strong> "우리 그림이 움직여!"</p>
-                                <p class="text-sm text-gray">자막: 우리 그림이 움직여! (하단 중앙)</p>
+                                <p><strong>서진 · <code>voice: child-girl-6-clear</code>:</strong> "우리 그림이 움직여!" — 놀란 눈</p>
+                                <p class="text-sm text-gray">자막: 우리 그림이 움직여! (하단 중앙). 코리요의 미끄럼틀 대사는 놀이터 씬 삭제에 따라 함께 제거.</p>
                             </div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🔊 사운드</summary>
-                            <div class="details-content">크레용 → 마법 효과음 → 아이들 웃음 + 코리요 놀라는 소리 → 오케스트라 빌드업</div>
+                            <div class="details-content">크레용 사각거림 ASMR → 마법 파티클 효과음 → 상승하는 스트링 BGM</div>
                         </details>
                     </div>
-                    
+
                     <!-- SCENE 06 -->
                     <div class="card scene-card reveal">
                         <div class="scene-header">
                             <h3>SCENE 06 · 엔지니어의 세계</h3>
-                            <span class="timecode">0:36–0:43</span>
+                            <span class="timecode">0:32–0:39</span>
                         </div>
-                        <details>
+                        <details open>
                             <summary>📷 카메라</summary>
-                            <div class="details-content">매치 컷 — 놀이터 곡선 → 반도체 회로 패턴. / 안내자가 홀로그램 AI 화면 + 반도체 칩. 코리요가 칩을 신기하게 들여다봄. / 와이드 — 미래 산업 풍경, SK하이닉스 로고.</div>
+                            <div class="details-content">매치 컷 — 도시 도로선 → 반도체 회로 패턴. / 안내자가 홀로그램 AI 화면 + 반도체 칩. 코리요가 칩을 신기하게 들여다봄. / 와이드 — 미래 산업 풍경, SK하이닉스 로고.</div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🎥 영상 프롬프트</summary>
                             <div class="details-content code-block">
                                 <button class="copy-btn">복사</button>
-                                <pre>[Shot A] Match cut: playground curves morph into semiconductor circuit patterns. Macro close-up of silicon wafer, golden circuit traces pulsing with light.
+                                <pre>Shot 06-A (5s)
+Subject: Match cut from the previous aerial city — city grid lines morph seamlessly into semiconductor circuit patterns etched on a silicon wafer.
+Action: Aerial city roads transform into golden circuit traces; camera scale collapses from city to wafer surface over 3 seconds; macro close-up of a silicon wafer with pulsing golden circuit light traveling along the traces.
+Scene: Extreme macro of silicon wafer surface.
+Camera: Continuous push-in match cut, ends at macro 5x magnification.
+Lighting/Style: Cool metallic wafer surface + warm pulsing golden circuit light, high contrast, photorealistic.
+Character anchor: (no characters)
+Aspect: 16:9, 1080p, 24fps.
+Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
+Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
+Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Audio direction:
+child-mascot-warm-bright: Bright, playful youthful Korean mascot voice, light and warm.
+adult-seojin-warm-25f: Calm, warm Korean woman in her mid-twenties, steady and reassuring.
+Scene dialogue (distribute across this scene’s shots once, do not repeat in each shot): 코리요 ·  voice: child-mascot-warm-bright :  &quot;이 작은 게 그렇게 대단한 거야?&quot; — 고개 갸웃
+                                 안내자 ·  voice: adult-seojin-warm-25f :  &quot;나는 AI와 반도체를 만드는 엔지니어야.&quot; Use Korean; no additional speech. Reuse the same approved voice reference per character in every scene. Guide and adult Seojin use the identical voice. Do not treat these editorial voice labels as API voice IDs.
 
-[Shot B] The cleanroom figure holds a holographic AI interface. A chip model floats above their hand. The round yellow mascot peers at the chip with enormous curious eyes, almost touching it with its nose. Cool lab + warm city glow.
-
-[Shot C] Wide shot: futuristic fab campus at sunset. SK Hynix logo visible. Overlay: "상상한 미래 모습". Epic composition.</pre>
+Shot 06-B (5s)
+Subject: The cleanroom-suited adult figure (face still hidden by hood) holds up a translucent holographic AI interface above their open palm; a small floating 3D chip model rotates slowly above the hand. Koriyo peers at the chip with enormous curious eyes, nose almost touching it.
+Action: Adult figure&#x27;s hand tilts slightly, chip hologram rotates; Koriyo&#x27;s star wand droops as it stares in wonder. Camera slowly orbits the hand 20 degrees. Wide shot pulls out at 4s to reveal a futuristic fab campus at sunset with &quot;SK Hynix&quot; logo faintly visible on a tower; overlay text appears: &quot;상상한 미래 모습&quot;.
+Scene: Fab lab interior transitioning to fab campus exterior.
+Camera: Orbit dolly 20°, then pull-out to wide.
+Lighting/Style: Cool blue lab light + warm amber city glow through the windows, holographic teal-cyan chip glow, cinematic composition, photorealistic.
+Character anchor: Adult Seojin (25yo, face hidden by cleanroom hood, star charm bracelet not visible yet), Koriyo — round yellow body, orange spikes, star wand.
+Aspect: 16:9, 1080p, 24fps.
+Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
+Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
+Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Audio direction:
+child-mascot-warm-bright: Bright, playful youthful Korean mascot voice, light and warm.
+adult-seojin-warm-25f: Calm, warm Korean woman in her mid-twenties, steady and reassuring.
+Scene dialogue (distribute across this scene’s shots once, do not repeat in each shot): 코리요 ·  voice: child-mascot-warm-bright :  &quot;이 작은 게 그렇게 대단한 거야?&quot; — 고개 갸웃
+                                 안내자 ·  voice: adult-seojin-warm-25f :  &quot;나는 AI와 반도체를 만드는 엔지니어야.&quot; Use Korean; no additional speech. Reuse the same approved voice reference per character in every scene. Guide and adult Seojin use the identical voice. Do not treat these editorial voice labels as API voice IDs.</pre>
                             </div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🖼 레퍼런스</summary>
                             <div class="details-content code-block">
                                 <button class="copy-btn">복사</button>
                                 <pre>Semiconductor engineer with holographic chip display. A round yellow mascot peers curiously at the floating chip. Cool blue interior, warm amber exterior. Cinematic split lighting.</pre>
                             </div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🎙 대사 & 📝 자막</summary>
                             <div class="details-content">
-                                <p><strong>코리요:</strong> "이 작은 게 그렇게 대단한 거야?" — 고개 갸웃<br>
-                                <strong>안내자:</strong> "나는 AI와 반도체를 만드는 엔지니어야."</p>
+                                <p><strong>코리요 · <code>voice: child-mascot-warm-bright</code>:</strong> "이 작은 게 그렇게 대단한 거야?" — 고개 갸웃<br>
+                                <strong>안내자 · <code>voice: adult-seojin-warm-25f</code>:</strong> "나는 AI와 반도체를 만드는 엔지니어야."</p>
                                 <p class="text-sm text-gray">자막: 나는 AI와 반도체를 만드는 엔지니어야. (하단 중앙)</p>
                             </div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🔊 사운드</summary>
                             <div class="details-content">전자음 펄스 → 홀로그램 UI 사운드 → 첼로 솔로 시작</div>
                         </details>
@@ -380,42 +535,72 @@
                     <div class="card scene-card reveal">
                         <div class="scene-header">
                             <h3>SCENE 07 · 정체 공개 ⭐</h3>
-                            <span class="timecode">0:43–0:53</span>
+                            <span class="timecode">0:39–0:49</span>
                         </div>
-                        <details>
+                        <details open>
                             <summary>📷 카메라</summary>
                             <div class="details-content">안내자 후드 벗기 슬로모션. / 인서트: ① 별 장식 ② '서진' 사원증 ③ 오래된 숙제장. / 리버스: 어린 서진 + 코리요의 반응. 코리요가 눈물 글썽. / 투 숏 + 코리요: 두 서진이 마주보고, 코리요가 둘 사이에서 두 손을 포개줌.</div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🎥 영상 프롬프트</summary>
                             <div class="details-content code-block">
                                 <button class="copy-btn">복사</button>
-                                <pre>[Shot A] Cleanroom gowning corridor. Figure removes hood slowly — 48fps slow motion. A young Korean woman (25), short black hair, gentle eyes. Warm light replacing cool clinical lighting.
+                                <pre>Shot 07-A (5s)
+Subject: The cleanroom-suited adult figure in the gowning corridor slowly reaches up and removes the protective goggles and mask, then pulls back the hood, revealing a 25-year-old Korean woman with a short black bob and gentle eyes — this is adult Seojin.
+Action: gentle slow-motion look. Both hands rise, thumbs hook hood edge, hood peels back over 3.5 seconds. Cool clinical lighting warms into golden light as her face is revealed. She smiles softly. Insert cutaways at 3.8s, 4.1s, 4.4s: (a) star charm on her bracelet in extreme close-up, (b) Samsung employee badge close-up reading &quot;서진 / AI·반도체 엔지니어&quot;, (c) an old yellowed sketchbook on a nearby table with a familiar crayon drawing of a small yellow round mascot.
+Scene: Cleanroom gowning corridor, transitions from cool-white to warm-gold as hood comes off.
+Camera: Medium close-up on adult Seojin, static tripod feel, then rapid insert cuts.
+Lighting/Style: gentle slow-motion look, lighting transition cool→warm, soft rim light appearing as hood clears, photorealistic, subtle film grain.
+Character anchor: Adult Seojin — 25yo Korean woman, short black bob (same silhouette as child Seojin), gentle eyes, beige shirt beneath partly removed suit, Samsung badge &quot;서진 / AI·반도체 엔지니어&quot;, star charm bracelet matching child Seojin&#x27;s bag charm.
+Aspect: 16:9, 1080p, 24fps.
+Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
+Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
+Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Audio direction:
+child-mascot-warm-bright: Bright, playful youthful Korean mascot voice, light and warm.
+adult-seojin-warm-25f: Calm, warm Korean woman in her mid-twenties, steady and reassuring.
+child-girl-6-clear: Clear, soft Korean child girl character voice, natural and curious.
+Scene dialogue (distribute across this scene’s shots once, do not repeat in each shot): 코리요 ·  voice: child-mascot-warm-bright :  (눈물 글썽) &quot;그래서… 그래서 네가 이렇게 특별했구나.&quot; — 작은 목소리
+                                 서진(어린) ·  voice: child-girl-6-clear :  &quot;혹시… 미래의 나?&quot;
+                                 서진(어른) ·  voice: adult-seojin-warm-25f :  &quot;응. 네가 꿈꾸던 미래를 만들고 있어.&quot; Use Korean; no additional speech. Reuse the same approved voice reference per character in every scene. Guide and adult Seojin use the identical voice. Do not treat these editorial voice labels as API voice IDs.
 
-[Shot B-1] Star charm close-up. [Shot B-2] Samsung badge: "서진", "AI·반도체 엔지니어". [Shot B-3] Old yellowed sketchbook.
-
-[Shot C] Child's face — eyes widen. Next to her, the round yellow mascot's eyes also widen, a single sparkling tear forming. Both look up with recognition.
-
-[Shot D] Two-shot + mascot: child and adult Seojin face each other. The mascot stands between them, gently placing one small hand on each of their hands over the old sketchbook. Matching star charms. Warm golden light. Deeply emotional.</pre>
+Shot 07-B (5s)
+Subject: Two-shot of child Seojin and adult Seojin facing each other, Koriyo standing between them with one small hand touching each of their hands over an old sketchbook that shows a child&#x27;s crayon drawing of Koriyo.
+Action: Child Seojin&#x27;s eyes widen; Koriyo&#x27;s black oval eyes widen and a single sparkling tear forms at the corner. Both look up toward adult Seojin. Adult Seojin kneels slightly. All three hands rest gently over the sketchbook. The star charm on the child’s bag and matching charm on the adult’s wrist catch the golden light and glow softly.
+Scene: Cleanroom gowning corridor, now bathed in warm golden light.
+Camera: Eye-level two-shot with Koriyo center, slow 3% push-in, 50mm equivalent.
+Lighting/Style: Warm golden key light, soft rim, cinematic emotional grade, shallow depth of field f/1.8, photorealistic.
+Character anchor: Child Seojin — 6yo, short black bob, pale yellow t-shirt, beige shorts, star charm on bag. Adult Seojin — 25yo, short black bob, beige shirt, Samsung badge, matching star charm bracelet. Koriyo — round yellow body, orange spikes, star wand held under one arm.
+Aspect: 16:9, 1080p, 24fps.
+Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
+Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
+Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Audio direction:
+child-mascot-warm-bright: Bright, playful youthful Korean mascot voice, light and warm.
+adult-seojin-warm-25f: Calm, warm Korean woman in her mid-twenties, steady and reassuring.
+child-girl-6-clear: Clear, soft Korean child girl character voice, natural and curious.
+Scene dialogue (distribute across this scene’s shots once, do not repeat in each shot): 코리요 ·  voice: child-mascot-warm-bright :  (눈물 글썽) &quot;그래서… 그래서 네가 이렇게 특별했구나.&quot; — 작은 목소리
+                                 서진(어린) ·  voice: child-girl-6-clear :  &quot;혹시… 미래의 나?&quot;
+                                 서진(어른) ·  voice: adult-seojin-warm-25f :  &quot;응. 네가 꿈꾸던 미래를 만들고 있어.&quot; Use Korean; no additional speech. Reuse the same approved voice reference per character in every scene. Guide and adult Seojin use the identical voice. Do not treat these editorial voice labels as API voice IDs.</pre>
                             </div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🖼 레퍼런스</summary>
                             <div class="details-content code-block">
                                 <button class="copy-btn">복사</button>
                                 <pre>Young Korean woman (25) kneels to eye level with her 6-year-old self. Between them, a round yellow mascot with teary eyes places its hands on both of theirs over a crayon sketchbook. Star charms on all three. Warm golden backlight, film grain, anamorphic bokeh. Spielberg-level emotion.</pre>
                             </div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🎙 대사 & 📝 자막</summary>
                             <div class="details-content">
-                                <p><strong>코리요:</strong> (눈물 글썽) "그래서… 그래서 네가 이렇게 특별했구나." — 작은 목소리<br>
-                                <strong>서진(어린):</strong> "혹시… 미래의 나?"<br>
-                                <strong>서진(어른):</strong> "응. 네가 꿈꾸던 미래를 만들고 있어."</p>
+                                <p><strong>코리요 · <code>voice: child-mascot-warm-bright</code>:</strong> (눈물 글썽) "그래서… 그래서 네가 이렇게 특별했구나." — 작은 목소리<br>
+                                <strong>서진(어린) · <code>voice: child-girl-6-clear</code>:</strong> "혹시… 미래의 나?"<br>
+                                <strong>서진(어른) · <code>voice: adult-seojin-warm-25f</code>:</strong> "응. 네가 꿈꾸던 미래를 만들고 있어."</p>
                                 <p class="text-sm text-gray">자막: 대화형 좌/우 오프셋, 어른 서진 대사 볼드</p>
                             </div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🔊 사운드</summary>
                             <div class="details-content">후드 벗는 소리 → 사원증 딸깍 → 코리요 흐느낌 → 첼로 클라이맥스 + 피아노</div>
                         </details>
@@ -425,27 +610,39 @@
                     <div class="card scene-card reveal">
                         <div class="scene-header">
                             <h3>SCENE 08 · 귀환</h3>
-                            <span class="timecode">0:53–0:55</span>
+                            <span class="timecode">0:49–0:51</span>
                         </div>
-                        <details>
+                        <details open>
                             <summary>📷 카메라</summary>
                             <div class="details-content">사이드 트래킹 — 서진+코리요가 나란히 귀환 열차. 코리요가 서진이 어깨에 기대어 졸음. 창밖 빛 되감김. 디졸브→유치원.</div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🎥 영상 프롬프트</summary>
                             <div class="details-content code-block">
                                 <button class="copy-btn">복사</button>
-                                <pre>Side tracking shot: child Seojin and Koriyo sit in the return train. Koriyo leans sleepily on the girl's shoulder, star wand dimming. Outside, the cityscape dissolves backward through time. The mascot gradually fades, becoming translucent. Cross dissolve to kindergarten. Warm amber to golden, melancholic but hopeful.</pre>
+                                <pre>Shot 08-A (5s → 2s cut)
+Subject: Child Seojin and Koriyo sitting side-by-side on the return train.
+Action: Side tracking shot. Koriyo leans sleepily on the girl&#x27;s right shoulder, its star wand dimming from bright gold to soft warm amber. Outside the window, the futuristic cityscape dissolves backward through time into a suburban afternoon landscape. Koriyo gradually becomes translucent during the selected 2-second edit. Cross dissolve at the end of the selected edit to the kindergarten classroom.
+Scene: Futuristic train interior → kindergarten cross dissolve.
+Camera: Side tracking dolly parallel to the seat, 35mm equivalent, gentle.
+Lighting/Style: Warm amber transitioning to golden dusk, melancholic-hopeful mood, photorealistic.
+Character anchor: Koriyo — round yellow body, orange spikes, star wand (dimming, becoming translucent). Child Seojin — 6yo, short black bob, pale yellow t-shirt, beige shorts.
+Aspect: 16:9, 1080p, 24fps.
+Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
+Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
+Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Audio direction:
+No dialogue; ambience and music only.</pre>
                             </div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🎙 대사 & 📝 자막</summary>
                             <div class="details-content">
                                 <p>대사 없음 (음악만)</p>
                                 <p class="text-sm text-gray">자막: 없음</p>
                             </div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🔊 사운드</summary>
                             <div class="details-content">열차 레일 리듬 → 리버스 피아노 → 점차 사라짐</div>
                         </details>
@@ -455,27 +652,40 @@
                     <div class="card scene-card reveal">
                         <div class="scene-header">
                             <h3>SCENE 09 · 숙제의 답</h3>
-                            <span class="timecode">0:55–0:57</span>
+                            <span class="timecode">0:51–0:53</span>
                         </div>
-                        <details>
+                        <details open>
                             <summary>📷 카메라</summary>
                             <div class="details-content">ECU → 서진이 숙제장에 "내 미래는 우리 동네에 있어요" 쓰기. 숙제장 한쪽에 코리요 그림도 그려져 있음. 풀 숏으로.</div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🎥 영상 프롬프트</summary>
                             <div class="details-content code-block">
                                 <button class="copy-btn">복사</button>
-                                <pre>Extreme close-up of child's hand writing in crayon: "내 미래는 우리 동네에 있어요." On the page, a small crayon drawing of the round yellow mascot is visible. Camera pulls back to reveal the child smiling in the kindergarten, dusk light. Warm lighting, deep focus.</pre>
+                                <pre>Shot 09-A (5s → 2s cut)
+Subject: Extreme close-up of child Seojin&#x27;s hand writing in yellow crayon on white paper: &quot;내 미래는 우리 동네에 있어요.&quot; Beside the sentence, a small crayon drawing of Koriyo (round yellow body, orange spikes, tiny star wand) is visible.
+Action: Hand completes the last stroke; camera pulls back smoothly to reveal child Seojin sitting at her kindergarten desk smiling, dusk light through the window.
+Scene: Kindergarten classroom at dusk.
+Camera: Extreme close-up → medium pull-back over 5 seconds, 50mm equivalent, deep focus at end.
+Lighting/Style: Warm dusk light, golden window bloom, photorealistic, subtle film grain.
+Character anchor: Child Seojin — 6yo, short black bob, pale yellow t-shirt, beige shorts.
+Aspect: 16:9, 1080p, 24fps.
+Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
+Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
+Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Audio direction:
+child-girl-6-clear: Clear, soft Korean child girl character voice, natural and curious.
+Scene dialogue (distribute across this scene’s shots once, do not repeat in each shot): 서진(V.O.) ·  voice: child-girl-6-clear :  &quot;내 미래는 우리 동네에 있어요.&quot; — 조용하지만 확신에 찬 아이 목소리 Use Korean; no additional speech. Reuse the same approved voice reference per character in every scene. Guide and adult Seojin use the identical voice. Do not treat these editorial voice labels as API voice IDs.</pre>
                             </div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🎙 대사 & 📝 자막</summary>
                             <div class="details-content">
-                                <p><strong>서진(V.O.):</strong> "내 미래는 우리 동네에 있어요." — 조용하지만 확신에 찬 아이 목소리</p>
+                                <p><strong>서진(V.O.) · <code>voice: child-girl-6-clear</code>:</strong> "내 미래는 우리 동네에 있어요." — 조용하지만 확신에 찬 아이 목소리</p>
                                 <p class="text-sm text-gray">자막: 내 미래는 우리 동네에 있어요. (하단, 약간 크게)</p>
                             </div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🔊 사운드</summary>
                             <div class="details-content">크레용 쓰는 소리 + 피아노 단선율</div>
                         </details>
@@ -485,34 +695,47 @@
                     <div class="card scene-card reveal">
                         <div class="scene-header">
                             <h3>SCENE 10 · 엔딩 타이틀</h3>
-                            <span class="timecode">0:57–0:58</span>
+                            <span class="timecode">0:53–0:54</span>
                         </div>
-                        <details>
+                        <details open>
                             <summary>📷 카메라</summary>
                             <div class="details-content">숙제장 그림이 빛남. 코리요 그림도 함께 반짝. 실제 화성시 야경과 더블 익스포저. 페이드 투 화이트.</div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🎥 영상 프롬프트</summary>
                             <div class="details-content code-block">
                                 <button class="copy-btn">복사</button>
-                                <pre>The sketchbook drawing glows — including the small Koriyo drawing which sparkles with its star wand. Double exposure: drawing overlaps with aerial night view of Hwaseong City. Roads echo crayon strokes. Fade to warm white. Title: "모두의 행복, 더 큰 화성" in gold serif. Hwaseong City logo. Fade to black.</pre>
+                                <pre>Shot 10-A (5s)
+Subject: The sketchbook drawing on the desk glows softly, including the small crayon Koriyo which sparkles at the tip of its star wand.
+Action: Double exposure: the drawing dissolves into an aerial night view of Hwaseong City where the illuminated roads echo the crayon strokes exactly. Fade to warm white. Title text appears in gold serif type: &quot;모두의 행복, 더 큰 화성&quot;. Hwaseong City logo below title. Fade to black.
+Scene: Sketchbook → aerial night city → title card.
+Camera: Locked shot with a slow 5% push-in on the drawing; dissolve is optical, not camera-driven.
+Lighting/Style: Warm golden glow → aerial city lights (amber-gold), gold serif title on warm white, cinematic, photorealistic transition.
+Character anchor: (drawn Koriyo only)
+Aspect: 16:9, 1080p, 24fps.
+Model: Seedance 2.5. The 5-second shot is an editorial unit, not a model duration limit.
+Continuity: Use the same supplied character images for every shot; preserve faces, clothes and mascot design. Do not introduce a speaking character unless listed below.
+Avoid: playground, slides, children playing on rides, face drift, extra fingers, distorted text. Add exact titles and logos in editing.
+Audio direction:
+child-mascot-warm-bright: Bright, playful youthful Korean mascot voice, light and warm.
+Scene dialogue (distribute across this scene’s shots once, do not repeat in each shot): 대사 없음 Use Korean; no additional speech. Reuse the same approved voice reference per character in every scene. Guide and adult Seojin use the identical voice. Do not treat these editorial voice labels as API voice IDs.</pre>
                             </div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🖼 레퍼런스</summary>
                             <div class="details-content code-block">
                                 <button class="copy-btn">복사</button>
                                 <pre>Double exposure: child's crayon drawing (including a small yellow mascot character) overlaid with Hwaseong City night aerial. Crayon lines align with city lights. Gold glow, magical realism. Title typography centered.</pre>
                             </div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🎙 대사 & 📝 자막</summary>
                             <div class="details-content">
                                 <p>대사 없음</p>
                                 <p class="text-sm text-gray">자막: 모두의 행복, 더 큰 화성 / 화성특례시 (센터 정렬, 골드)</p>
                             </div>
                         </details>
-                        <details>
+                        <details open>
                             <summary>🔊 사운드</summary>
                             <div class="details-content">피아노 마지막 코드 + 리버브 → 무음</div>
                         </details>
@@ -542,17 +765,17 @@
                                     <td>~80 BPM, 스트링+서브베이스</td>
                                 </tr>
                                 <tr>
-                                    <td>18–36초</td>
+                                    <td>18–32초</td>
                                     <td>탐험과 창작 — 코리요와 모험</td>
                                     <td>~100 BPM, 마림바+플루트+패드</td>
                                 </tr>
                                 <tr>
-                                    <td>36–53초</td>
+                                    <td>32–49초</td>
                                     <td>반전과 감동</td>
                                     <td>~70 BPM, 오케스트라+첼로</td>
                                 </tr>
                                 <tr>
-                                    <td>53–58초</td>
+                                    <td>49–54초</td>
                                     <td>여운 — 코리요 작별</td>
                                     <td>~60 BPM, 피아노+리버브</td>
                                 </tr>
@@ -564,10 +787,10 @@
                         <div class="card checklist-card">
                             <h3>체크리스트</h3>
                             <ul class="checklist">
-                                <li><span class="check checked">✅</span> 러닝타임 60초 이하 (58초)</li>
-                                <li><span class="check checked">✅</span> 해상도 1920×1080 (16:9)</li>
-                                <li><span class="check checked">✅</span> 파일 형식 MP4</li>
-                                <li><span class="check checked">✅</span> 화성특례시 로고/슬로건</li>
+                                <li><span class="check checked">⬜</span> 편집 목표 54초 · 실제 영상 길이 미확인</li>
+                                <li><span class="check checked">⬜</span> 해상도 1920×1080 (16:9)</li>
+                                <li><span class="check checked">⬜</span> 파일 형식 MP4</li>
+                                <li><span class="check checked">⬜</span> 화성특례시 로고/슬로건</li>
                                 <li><span class="check unchecked">⬜</span> 유튜브 업로드</li>
                                 <li><span class="check unchecked">⬜</span> AI 기술서</li>
                                 <li><span class="check unchecked">⬜</span> 엔딩 크레딧</li>
@@ -610,7 +833,7 @@
                 </div>
                 <div class="prompt-box mt-8">
                     <textarea readonly class="flow-textarea" rows="4">기본 설정 프롬프트: 16:9 1080p 해상도, 시네마틱 라이팅, 필름 그레인, 24fps. 화성시 배경의 따뜻하고 감성적인 AI 광고 영상 제작.</textarea>
-                    <button class="btn btn-primary mt-4">ZIP 리소스 다운로드</button>
+                    <a href="seojin-reference-pack.zip" download class="btn btn-primary mt-4">ZIP 리소스 다운로드</a>
                 </div>
             </div>
         </section>

@@ -638,3 +638,13 @@ th {
         padding: 80px 0;
     }
 }
+
+/* Full-length prompts and casting codes must wrap on phones. */
+.code-block { padding-top: 52px; }
+.code-block pre, td { overflow-wrap: anywhere; }
+.scene-card, .music-card, .logline-card { min-width: 0; }
+#voices table { table-layout: fixed; }
+@media (max-width: 480px) {
+    .scene-card, .music-card, .logline-card { padding: 20px; }
+    #voices th, #voices td { padding: 8px; font-size: 0.8rem; }
+}
