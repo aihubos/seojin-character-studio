@@ -3,17 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex,nofollow">
     <title>SEOJIN CHARACTER STUDIO</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="app.js" defer></script>
 </head>
 <body>
     <header class="header">
-        <div class="header-content">
+        <div class="header-container">
             <div class="brand">SEOJIN CHARACTER STUDIO</div>
             <nav class="nav">
                 <a href="#collection">캐릭터 시트</a>
@@ -24,573 +22,607 @@
     </header>
 
     <main>
-        <section id="hero" class="hero reveal">
+        <section class="hero reveal">
             <div class="hero-content">
-                <p class="eyebrow">2026 별별화성 AWARDS · AI CF</p>
+                <span class="eyebrow">2026 별별화성 AWARDS · AI CF</span>
                 <h1 class="title">오늘의 그림,<br>내일의 빛.</h1>
-                <p class="subtitle">작품명 "오늘의 그림, 내일의 빛" — 58초 AI CF<br>사진에서 시작한 하나의 얼굴, 두 개의 시간.<br>영상 속에서도 이어지는 서진이의 모습을 위한 프로덕션 가이드.</p>
+                <p class="subtitle">작품명 "오늘의 그림, 내일의 빛" — 58초 AI CF.<br>서진이와 코리요가 함께 떠나는 시간 여행.</p>
+                
                 <div class="badges">
                     <span class="badge">10 씬 · 58초</span>
+                    <span class="badge badge-accent">코리요 + 서진이</span>
                     <span class="badge">AI 영상 프롬프트</span>
-                    <span class="badge">사운드 디자인</span>
                     <span class="badge">16:9 · 1080p</span>
                 </div>
-                <a href="#conti" class="btn btn-primary">콘티 보기 ↘</a>
+
+                <a href="#conti" class="cta-button">콘티 보기 ↘</a>
             </div>
         </section>
 
-        <section id="collection" class="collection reveal">
-            <div class="section-header">
-                <h2>캐릭터 시트</h2>
-                <p>일관된 캐릭터 유지를 위한 레퍼런스 이미지</p>
+        <section id="collection" class="collection section-padding">
+            <div class="container reveal">
+                <h2 class="section-title">캐릭터 컬렉션</h2>
+                <div class="grid character-grid">
+                    <div class="card character-card">
+                        <div class="img-wrapper">
+                            <img src="assets/seojin-child.png" alt="어린 서진" onerror="this.src='data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'100%\' height=\'100%\' viewBox=\'0 0 400 300\'%3E%3Crect width=\'100%\' height=\'100%\' fill=\'%23f3f4f6\'/%3E%3Ctext x=\'50%\' y=\'50%\' fill=\'%239ca3af\' text-anchor=\'middle\' dominant-baseline=\'middle\' font-family=\'sans-serif\' font-size=\'16\'%3EImage Placeholder%3C/text%3E%3C/svg%3E'">
+                        </div>
+                        <div class="card-content">
+                            <h3>어린 서진 (6세)</h3>
+                            <p>짧은 검은 단발 · 연노랑 티셔츠 · 베이지 반바지 · 별 장식 가방</p>
+                        </div>
+                    </div>
+
+                    <div class="card character-card">
+                        <div class="img-wrapper">
+                            <img src="https://aihscity.ai-hub-os.com/characters/assets-2026/koriyo-contest-2026.png" alt="코리요" onerror="this.src='data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'100%\' height=\'100%\' viewBox=\'0 0 400 300\'%3E%3Crect width=\'100%\' height=\'100%\' fill=\'%23f3f4f6\'/%3E%3Ctext x=\'50%\' y=\'50%\' fill=\'%239ca3af\' text-anchor=\'middle\' dominant-baseline=\'middle\' font-family=\'sans-serif\' font-size=\'16\'%3EImage Placeholder%3C/text%3E%3C/svg%3E'">
+                        </div>
+                        <div class="card-content">
+                            <h3>코리요</h3>
+                            <p>화성시 공식 마스코트 · 둥근 노란 몸 · 주황 돌기 · 별봉 · 서진이의 시간여행 안내자</p>
+                        </div>
+                    </div>
+
+                    <div class="card character-card">
+                        <div class="img-wrapper">
+                            <img src="assets/seojin-adult.png" alt="어른 서진" onerror="this.src='data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'100%\' height=\'100%\' viewBox=\'0 0 400 300\'%3E%3Crect width=\'100%\' height=\'100%\' fill=\'%23f3f4f6\'/%3E%3Ctext x=\'50%\' y=\'50%\' fill=\'%239ca3af\' text-anchor=\'middle\' dominant-baseline=\'middle\' font-family=\'sans-serif\' font-size=\'16\'%3EImage Placeholder%3C/text%3E%3C/svg%3E'">
+                        </div>
+                        <div class="card-content">
+                            <h3>어른 서진 (25세)</h3>
+                            <p>AI·반도체 엔지니어 · 베이지 셔츠 · 삼성 사원증</p>
+                        </div>
+                    </div>
+
+                    <div class="card character-card dashed-card">
+                        <div class="card-content">
+                            <h3>방진복 서진</h3>
+                            <p>클린룸 방진복 완전 착용 · 제작 예정</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="card-grid">
-                <div class="card character-card">
-                    <img src="assets/seojin-child.png" alt="어린 서진" class="lightbox-trigger">
-                    <div class="card-body">
-                        <h3>어린 서진 (6세)</h3>
-                        <p>단발머리, 호기심 많은 눈빛, 노란색 티셔츠</p>
+        </section>
+
+        <section id="conti" class="conti section-padding bg-gray">
+            <div class="container">
+                <div class="overview reveal">
+                    <h2 class="section-title">작품 개요</h2>
+                    <div class="metadata-grid">
+                        <div class="meta-card">
+                            <span class="meta-label">작품 제목</span>
+                            <span class="meta-value">오늘의 그림, 내일의 빛</span>
+                        </div>
+                        <div class="meta-card">
+                            <span class="meta-label">러닝타임 / 해상도</span>
+                            <span class="meta-value">58초 | 1920×1080 (16:9) | MP4</span>
+                        </div>
+                        <div class="meta-card">
+                            <span class="meta-label">톤 & 무드</span>
+                            <span class="meta-value">시네마틱 판타지 · 따뜻한 리얼리즘</span>
+                        </div>
+                        <div class="meta-card">
+                            <span class="meta-label">컬러 팔레트</span>
+                            <div class="color-swatches">
+                                <div class="swatch" style="background-color: #D97706;" title="골든아워 앰버"></div>
+                                <div class="swatch" style="background-color: #DBEAFE;" title="클린룸 블루화이트"></div>
+                                <div class="swatch" style="background-color: #EA580C;" title="석양 오렌지"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="logline-card mt-8">
+                        <h3>로그라인</h3>
+                        <p>"화성에 사는 여섯 살 서진이가 '우리 동네의 내일'을 그리는 숙제를 받고, 그림에서 뛰어나온 코리요와 함께 시간을 건넌다. 미래 화성에서 만난 안내자의 정체는 삼성전자 AI·반도체 엔지니어가 된 어른 서진. 아이의 그림 한 장이 도시의 빛이 되기까지, 코리요와 서진이의 모험이 화성의 어제와 내일을 잇는다."</p>
+                    </div>
+
+                    <div class="emotion-curve mt-8">
+                        <h3>감정 곡선</h3>
+                        <div class="emotion-bar">
+                            <div class="emotion-segment" style="flex: 11" title="호기심(0–11)">호기심</div>
+                            <div class="emotion-segment" style="flex: 14" title="경이(11–25)">경이</div>
+                            <div class="emotion-segment" style="flex: 11" title="환희(25–36)">환희</div>
+                            <div class="emotion-segment" style="flex: 7" title="존경(36–43)">존경</div>
+                            <div class="emotion-segment" style="flex: 10" title="감동(43–53)">감동</div>
+                            <div class="emotion-segment" style="flex: 5" title="여운(53–58)">여운</div>
+                        </div>
                     </div>
                 </div>
-                <div class="card character-card">
-                    <img src="assets/seojin-adult.png" alt="어른 서진" class="lightbox-trigger">
-                    <div class="card-body">
-                        <h3>어른 서진 (25세)</h3>
-                        <p>AI·반도체 엔지니어, 단단하고 따뜻한 미소</p>
+
+                <div class="scenes mt-12">
+                    <!-- SCENE 01 -->
+                    <div class="card scene-card reveal">
+                        <div class="scene-header">
+                            <h3>SCENE 01 · 숙제</h3>
+                            <span class="timecode">0:00–0:05</span>
+                        </div>
+                        <details>
+                            <summary>📷 카메라</summary>
+                            <div class="details-content">ECU → 크레용이 종이 위에 놓이는 순간. 셸로우 DOF. / 와이드 숏, 유치원 교실. 골든아워 햇살.</div>
+                        </details>
+                        <details>
+                            <summary>🎥 영상 프롬프트</summary>
+                            <div class="details-content code-block">
+                                <button class="copy-btn">복사</button>
+                                <pre>Cinematic close-up of a child's hand placing a yellow crayon on white paper in a kindergarten classroom. Golden hour sunlight streaming through large windows, lens flare. Shallow depth of field, bokeh background with colorful children's drawings on the wall. Camera: slight dolly in. Film grain, warm color grading. 16:9, photorealistic, 24fps.</pre>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>🖼 레퍼런스</summary>
+                            <div class="details-content code-block">
+                                <button class="copy-btn">복사</button>
+                                <pre>Wide shot of a bright Korean kindergarten classroom, late afternoon golden sunlight. A 6-year-old Korean girl with short black bob hair, pale yellow t-shirt, sits looking up curiously. Cinematic lighting.</pre>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>🎙 대사 & 📝 자막</summary>
+                            <div class="details-content">
+                                <p><strong>선생님(V.O.):</strong> "우리 동네의 내일을 그려 오세요." — 따뜻하고 명랑</p>
+                                <p class="text-sm text-gray">자막: 없음</p>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>🔊 사운드</summary>
+                            <div class="details-content">크레용 소리 + 아이들 웃음 + 피아노 첫 음</div>
+                        </details>
+                    </div>
+
+                    <!-- SCENE 02 -->
+                    <div class="card scene-card reveal">
+                        <div class="scene-header">
+                            <h3>SCENE 02 · 코리요의 등장</h3>
+                            <span class="timecode">0:05–0:11</span>
+                        </div>
+                        <details>
+                            <summary>📷 카메라</summary>
+                            <div class="details-content">탑다운 → 서진이가 숙제장에 화성 풍경을 그린다. 크레용 선이 살짝 빛난다. / 종이 위에서 코리요가 빼꼼 나타남. 작은 반짝 이펙트. 서진이와 눈높이를 맞추며 손을 내밀고, 별봉을 흔들자 호수공원 풍경이 빛으로 바뀜. GTX 동탄역으로 함께 달려간다.</div>
+                        </details>
+                        <details>
+                            <summary>🎥 영상 프롬프트</summary>
+                            <div class="details-content code-block">
+                                <button class="copy-btn">복사</button>
+                                <pre>[Shot A] Top-down shot of a child drawing Hwaseong scenery with crayons. The lines begin to softly glow golden. A small round yellow character (Koriyo — round yellow body, orange head spikes, small black oval eyes, soft 3D texture, carrying a star wand) pops up from the drawing, breaking through the paper surface with sparkle effects.
+
+[Shot B] Eye-level shot: Koriyo and the girl make eye contact. Koriyo extends a small hand. The star wand glows. The park scenery transforms into streams of warm light. They run together toward a futuristic GTX train station, hand in hand.
+16:9, warm cinematic lighting, photorealistic with 3D character integration.</pre>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>🖼 레퍼런스</summary>
+                            <div class="details-content code-block">
+                                <button class="copy-btn">복사</button>
+                                <pre>A round yellow mascot character with orange head spikes and a star wand appears magically from a child's crayon drawing. Sparkle effects around the character. A 6-year-old Korean girl looks at it with wonder. Kindergarten classroom, golden hour. Mixed media aesthetic.</pre>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>🎙 대사 & 📝 자막</summary>
+                            <div class="details-content">
+                                <p><strong>코리요:</strong> "네 생각, 같이 키워 볼까?" — 밝고 장난스러운 톤<br>
+                                <strong>서진:</strong> "코리요! 같이 가자!" — 들뜬 목소리</p>
+                                <p class="text-sm text-gray">자막: 네 생각, 같이 키워 볼까? (하단 중앙)</p>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>🔊 사운드</summary>
+                            <div class="details-content">종이 바스락 → 반짝 효과음 → 코리요 등장 징글 → 트램 벨 + 피아노 멜로디</div>
+                        </details>
+                    </div>
+
+                    <!-- SCENE 03 -->
+                    <div class="card scene-card reveal">
+                        <div class="scene-header">
+                            <h3>SCENE 03 · 시간의 문 ⭐</h3>
+                            <span class="timecode">0:11–0:18</span>
+                        </div>
+                        <details>
+                            <summary>📷 카메라</summary>
+                            <div class="details-content">서진+코리요 POV — GTX 창밖 빛 입자 해체. 스피드 램프. / 크로스 디졸브 — 반도체 팹 클린룸 출구. 유리 너머 웨이퍼 이송 장비 실루엣. 방진복 완전 착용 인물 역광 등장. / 로우앵글 — 방진복 인물이 빛의 경계를 넘어 서진+코리요 앞에. 코리요가 서진이 뒤에 숨으며 살짝 떨림.</div>
+                        </details>
+                        <details>
+                            <summary>🎥 영상 프롬프트</summary>
+                            <div class="details-content code-block">
+                                <button class="copy-btn">복사</button>
+                                <pre>[Shot A] First-person POV from inside a train. A child and a round yellow mascot character sit together. The landscape dissolves into luminous particles — amber, gold, white. Speed ramp: slow → fast → slow. Warp tunnel effect.
+
+[Shot B] Semiconductor fab cleanroom exit corridor. Glass walls show blurred FOUP carriers. Door opens — bright white light. A figure in full cleanroom bunny suit walks forward in silhouette, backlit. Samsung logo on suit. Mysterious, cool blue-white palette.
+
+[Shot C] Low-angle: the cleanroom figure steps through volumetric light. A small girl and a round yellow character look up. Koriyo hides slightly behind the girl, peeking out nervously. Two silhouettes + one small character framed together. Face hidden. Dramatic chiaroscuro.</pre>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>🖼 레퍼런스</summary>
+                            <div class="details-content code-block">
+                                <button class="copy-btn">복사</button>
+                                <pre>Dramatic cinematic frame: tall figure in white cleanroom suit in a doorway of brilliant light. Volumetric fog. In foreground, a small girl and a round yellow mascot character look up in wonder. The mascot peeks from behind the girl nervously. Film noir meets sci-fi. 16:9.</pre>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>🎙 대사 & 📝 자막</summary>
+                            <div class="details-content">
+                                <p><strong>코리요:</strong> "저 사람... 뭔가 특별해 보여!" — 속삭이듯 흥분<br>
+                                <strong>서진:</strong> "우주인이에요?"<br>
+                                <strong>안내자:</strong> "네 내일을 만나러 갈래?"</p>
+                                <p class="text-sm text-gray">자막: 대화형 — 좌/우 오프셋 화자 구분</p>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>🔊 사운드</summary>
+                            <div class="details-content">열차 소음 → 리버스 심벌 → 에어록 소리 → 발걸음 에코 + 스트링 트레몰로</div>
+                        </details>
+                    </div>
+
+                    <!-- SCENE 04 -->
+                    <div class="card scene-card reveal">
+                        <div class="scene-header">
+                            <h3>SCENE 04 · 미래 화성</h3>
+                            <span class="timecode">0:18–0:25</span>
+                        </div>
+                        <details>
+                            <summary>📷 카메라</summary>
+                            <div class="details-content">드론 숏 — 미래 화성시 조감도. / 서진+코리요+안내자 함께 걸으며 SAMSUNG·ASML 건물 표식. 코리요가 건물 사이를 뛰어다니며 신나함. / 서진의 눈동자 리플렉션.</div>
+                        </details>
+                        <details>
+                            <summary>🎥 영상 프롬프트</summary>
+                            <div class="details-content code-block">
+                                <button class="copy-btn">복사</button>
+                                <pre>[Shot A] Sweeping aerial shot of futuristic Hwaseong City. Green parks, curved glass buildings, elevated tram. Golden hour, utopian aesthetic.
+
+[Shot B] Three figures walk together — a small girl, a round yellow mascot bouncing excitedly between buildings, and a tall cleanroom-suited figure. "SAMSUNG" and "ASML" signage on facades. Koriyo points excitedly at everything. Warm amber tones.
+
+[Shot C] Extreme close-up of child's eye reflecting the futuristic cityscape. Macro lens, warm golden iris highlights.</pre>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>🖼 레퍼런스</summary>
+                            <div class="details-content code-block">
+                                <button class="copy-btn">복사</button>
+                                <pre>Futuristic eco-city Hwaseong 2040. Curved glass buildings, greenery, elevated monorail. Samsung/ASML campus. A small girl, a round yellow mascot, and a suited figure walk together. Studio Ghibli meets modern architecture. 16:9.</pre>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>🎙 대사 & 📝 자막</summary>
+                            <div class="details-content">
+                                <p><strong>코리요:</strong> "와! 우리 동네가 이렇게 됐어!" — 눈 반짝<br>
+                                <strong>서진:</strong> "여기가… 우리 동네?"</p>
+                                <p class="text-sm text-gray">자막: 여기가… 우리 동네? (하단 중앙)</p>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>🔊 사운드</summary>
+                            <div class="details-content">바람 + 미래 도시 앰비언스 + 마림바 시작</div>
+                        </details>
+                    </div>
+
+                    <!-- SCENE 05 -->
+                    <div class="card scene-card reveal">
+                        <div class="scene-header">
+                            <h3>SCENE 05 · 그림이 세계가 되다</h3>
+                            <span class="timecode">0:25–0:36</span>
+                        </div>
+                        <details>
+                            <summary>📷 카메라</summary>
+                            <div class="details-content">탑다운 — 서진이 숙제장에 그림. 코리요가 옆에서 별봉으로 색을 더해줌. / 세계 아이들이 그림 보태기. / 풀 CG — 그림이 3D 놀이터로 변환. 코리요가 미끄럼틀 시범을 보이다 멈칫하고 서진이가 웃음.</div>
+                        </details>
+                        <details>
+                            <summary>🎥 영상 프롬프트</summary>
+                            <div class="details-content code-block">
+                                <button class="copy-btn">복사</button>
+                                <pre>[Shot A] Top-down: child draws on sketchbook — dinosaur egg curves, tidal flat channels, lake ripples. Next to her, a round yellow mascot waves its star wand, adding glowing golden accents to the drawings. ASMR detail.
+
+[Shot B] Montage: children from diverse countries add drawings. Match cuts between hands.
+
+[Shot C] Crayon lines glow and lift into 3D structures — a magical playground. Koriyo slides down a dinosaur-egg slide, wobbles and stops mid-slide with a surprised expression. The girl laughs. Volumetric lighting, particles, warm atmosphere.</pre>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>🖼 레퍼런스</summary>
+                            <div class="details-content code-block">
+                                <button class="copy-btn">복사</button>
+                                <pre>Magical playground from crayon drawings. A round yellow mascot slides down a dinosaur-egg slide looking surprised. A girl laughs nearby. Mixed media — 2D crayon lines becoming 3D. Golden light, dreamy. 16:9.</pre>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>🎙 대사 & 📝 자막</summary>
+                            <div class="details-content">
+                                <p><strong>코리요:</strong> "미끄럼틀이다! 내가 먼저— 어어?!" — 엉뚱하게 멈춤<br>
+                                <strong>서진:</strong> "우리 그림이 움직여!"</p>
+                                <p class="text-sm text-gray">자막: 우리 그림이 움직여! (하단 중앙)</p>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>🔊 사운드</summary>
+                            <div class="details-content">크레용 → 마법 효과음 → 아이들 웃음 + 코리요 놀라는 소리 → 오케스트라 빌드업</div>
+                        </details>
+                    </div>
+                    
+                    <!-- SCENE 06 -->
+                    <div class="card scene-card reveal">
+                        <div class="scene-header">
+                            <h3>SCENE 06 · 엔지니어의 세계</h3>
+                            <span class="timecode">0:36–0:43</span>
+                        </div>
+                        <details>
+                            <summary>📷 카메라</summary>
+                            <div class="details-content">매치 컷 — 놀이터 곡선 → 반도체 회로 패턴. / 안내자가 홀로그램 AI 화면 + 반도체 칩. 코리요가 칩을 신기하게 들여다봄. / 와이드 — 미래 산업 풍경, SK하이닉스 로고.</div>
+                        </details>
+                        <details>
+                            <summary>🎥 영상 프롬프트</summary>
+                            <div class="details-content code-block">
+                                <button class="copy-btn">복사</button>
+                                <pre>[Shot A] Match cut: playground curves morph into semiconductor circuit patterns. Macro close-up of silicon wafer, golden circuit traces pulsing with light.
+
+[Shot B] The cleanroom figure holds a holographic AI interface. A chip model floats above their hand. The round yellow mascot peers at the chip with enormous curious eyes, almost touching it with its nose. Cool lab + warm city glow.
+
+[Shot C] Wide shot: futuristic fab campus at sunset. SK Hynix logo visible. Overlay: "상상한 미래 모습". Epic composition.</pre>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>🖼 레퍼런스</summary>
+                            <div class="details-content code-block">
+                                <button class="copy-btn">복사</button>
+                                <pre>Semiconductor engineer with holographic chip display. A round yellow mascot peers curiously at the floating chip. Cool blue interior, warm amber exterior. Cinematic split lighting.</pre>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>🎙 대사 & 📝 자막</summary>
+                            <div class="details-content">
+                                <p><strong>코리요:</strong> "이 작은 게 그렇게 대단한 거야?" — 고개 갸웃<br>
+                                <strong>안내자:</strong> "나는 AI와 반도체를 만드는 엔지니어야."</p>
+                                <p class="text-sm text-gray">자막: 나는 AI와 반도체를 만드는 엔지니어야. (하단 중앙)</p>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>🔊 사운드</summary>
+                            <div class="details-content">전자음 펄스 → 홀로그램 UI 사운드 → 첼로 솔로 시작</div>
+                        </details>
+                    </div>
+
+                    <!-- SCENE 07 -->
+                    <div class="card scene-card reveal">
+                        <div class="scene-header">
+                            <h3>SCENE 07 · 정체 공개 ⭐</h3>
+                            <span class="timecode">0:43–0:53</span>
+                        </div>
+                        <details>
+                            <summary>📷 카메라</summary>
+                            <div class="details-content">안내자 후드 벗기 슬로모션. / 인서트: ① 별 장식 ② '서진' 사원증 ③ 오래된 숙제장. / 리버스: 어린 서진 + 코리요의 반응. 코리요가 눈물 글썽. / 투 숏 + 코리요: 두 서진이 마주보고, 코리요가 둘 사이에서 두 손을 포개줌.</div>
+                        </details>
+                        <details>
+                            <summary>🎥 영상 프롬프트</summary>
+                            <div class="details-content code-block">
+                                <button class="copy-btn">복사</button>
+                                <pre>[Shot A] Cleanroom gowning corridor. Figure removes hood slowly — 48fps slow motion. A young Korean woman (25), short black hair, gentle eyes. Warm light replacing cool clinical lighting.
+
+[Shot B-1] Star charm close-up. [Shot B-2] Samsung badge: "서진", "AI·반도체 엔지니어". [Shot B-3] Old yellowed sketchbook.
+
+[Shot C] Child's face — eyes widen. Next to her, the round yellow mascot's eyes also widen, a single sparkling tear forming. Both look up with recognition.
+
+[Shot D] Two-shot + mascot: child and adult Seojin face each other. The mascot stands between them, gently placing one small hand on each of their hands over the old sketchbook. Matching star charms. Warm golden light. Deeply emotional.</pre>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>🖼 레퍼런스</summary>
+                            <div class="details-content code-block">
+                                <button class="copy-btn">복사</button>
+                                <pre>Young Korean woman (25) kneels to eye level with her 6-year-old self. Between them, a round yellow mascot with teary eyes places its hands on both of theirs over a crayon sketchbook. Star charms on all three. Warm golden backlight, film grain, anamorphic bokeh. Spielberg-level emotion.</pre>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>🎙 대사 & 📝 자막</summary>
+                            <div class="details-content">
+                                <p><strong>코리요:</strong> (눈물 글썽) "그래서… 그래서 네가 이렇게 특별했구나." — 작은 목소리<br>
+                                <strong>서진(어린):</strong> "혹시… 미래의 나?"<br>
+                                <strong>서진(어른):</strong> "응. 네가 꿈꾸던 미래를 만들고 있어."</p>
+                                <p class="text-sm text-gray">자막: 대화형 좌/우 오프셋, 어른 서진 대사 볼드</p>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>🔊 사운드</summary>
+                            <div class="details-content">후드 벗는 소리 → 사원증 딸깍 → 코리요 흐느낌 → 첼로 클라이맥스 + 피아노</div>
+                        </details>
+                    </div>
+
+                    <!-- SCENE 08 -->
+                    <div class="card scene-card reveal">
+                        <div class="scene-header">
+                            <h3>SCENE 08 · 귀환</h3>
+                            <span class="timecode">0:53–0:55</span>
+                        </div>
+                        <details>
+                            <summary>📷 카메라</summary>
+                            <div class="details-content">사이드 트래킹 — 서진+코리요가 나란히 귀환 열차. 코리요가 서진이 어깨에 기대어 졸음. 창밖 빛 되감김. 디졸브→유치원.</div>
+                        </details>
+                        <details>
+                            <summary>🎥 영상 프롬프트</summary>
+                            <div class="details-content code-block">
+                                <button class="copy-btn">복사</button>
+                                <pre>Side tracking shot: child Seojin and Koriyo sit in the return train. Koriyo leans sleepily on the girl's shoulder, star wand dimming. Outside, the cityscape dissolves backward through time. The mascot gradually fades, becoming translucent. Cross dissolve to kindergarten. Warm amber to golden, melancholic but hopeful.</pre>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>🎙 대사 & 📝 자막</summary>
+                            <div class="details-content">
+                                <p>대사 없음 (음악만)</p>
+                                <p class="text-sm text-gray">자막: 없음</p>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>🔊 사운드</summary>
+                            <div class="details-content">열차 레일 리듬 → 리버스 피아노 → 점차 사라짐</div>
+                        </details>
+                    </div>
+
+                    <!-- SCENE 09 -->
+                    <div class="card scene-card reveal">
+                        <div class="scene-header">
+                            <h3>SCENE 09 · 숙제의 답</h3>
+                            <span class="timecode">0:55–0:57</span>
+                        </div>
+                        <details>
+                            <summary>📷 카메라</summary>
+                            <div class="details-content">ECU → 서진이 숙제장에 "내 미래는 우리 동네에 있어요" 쓰기. 숙제장 한쪽에 코리요 그림도 그려져 있음. 풀 숏으로.</div>
+                        </details>
+                        <details>
+                            <summary>🎥 영상 프롬프트</summary>
+                            <div class="details-content code-block">
+                                <button class="copy-btn">복사</button>
+                                <pre>Extreme close-up of child's hand writing in crayon: "내 미래는 우리 동네에 있어요." On the page, a small crayon drawing of the round yellow mascot is visible. Camera pulls back to reveal the child smiling in the kindergarten, dusk light. Warm lighting, deep focus.</pre>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>🎙 대사 & 📝 자막</summary>
+                            <div class="details-content">
+                                <p><strong>서진(V.O.):</strong> "내 미래는 우리 동네에 있어요." — 조용하지만 확신에 찬 아이 목소리</p>
+                                <p class="text-sm text-gray">자막: 내 미래는 우리 동네에 있어요. (하단, 약간 크게)</p>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>🔊 사운드</summary>
+                            <div class="details-content">크레용 쓰는 소리 + 피아노 단선율</div>
+                        </details>
+                    </div>
+
+                    <!-- SCENE 10 -->
+                    <div class="card scene-card reveal">
+                        <div class="scene-header">
+                            <h3>SCENE 10 · 엔딩 타이틀</h3>
+                            <span class="timecode">0:57–0:58</span>
+                        </div>
+                        <details>
+                            <summary>📷 카메라</summary>
+                            <div class="details-content">숙제장 그림이 빛남. 코리요 그림도 함께 반짝. 실제 화성시 야경과 더블 익스포저. 페이드 투 화이트.</div>
+                        </details>
+                        <details>
+                            <summary>🎥 영상 프롬프트</summary>
+                            <div class="details-content code-block">
+                                <button class="copy-btn">복사</button>
+                                <pre>The sketchbook drawing glows — including the small Koriyo drawing which sparkles with its star wand. Double exposure: drawing overlaps with aerial night view of Hwaseong City. Roads echo crayon strokes. Fade to warm white. Title: "모두의 행복, 더 큰 화성" in gold serif. Hwaseong City logo. Fade to black.</pre>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>🖼 레퍼런스</summary>
+                            <div class="details-content code-block">
+                                <button class="copy-btn">복사</button>
+                                <pre>Double exposure: child's crayon drawing (including a small yellow mascot character) overlaid with Hwaseong City night aerial. Crayon lines align with city lights. Gold glow, magical realism. Title typography centered.</pre>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>🎙 대사 & 📝 자막</summary>
+                            <div class="details-content">
+                                <p>대사 없음</p>
+                                <p class="text-sm text-gray">자막: 모두의 행복, 더 큰 화성 / 화성특례시 (센터 정렬, 골드)</p>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>🔊 사운드</summary>
+                            <div class="details-content">피아노 마지막 코드 + 리버브 → 무음</div>
+                        </details>
                     </div>
                 </div>
-                <div class="card character-card placeholder">
-                    <div class="placeholder-img">
-                        <span class="label">제작 예정</span>
+
+                <div class="extra-info mt-12 grid">
+                    <div class="card music-card reveal">
+                        <h3>음악 디자인</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>구간</th>
+                                    <th>분위기</th>
+                                    <th>BPM / 악기</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>0–11초</td>
+                                    <td>호기심과 출발 + 코리요 등장</td>
+                                    <td>~90 BPM, 피아노+글로켄슈필</td>
+                                </tr>
+                                <tr>
+                                    <td>11–18초</td>
+                                    <td>경이 — 시간의 문</td>
+                                    <td>~80 BPM, 스트링+서브베이스</td>
+                                </tr>
+                                <tr>
+                                    <td>18–36초</td>
+                                    <td>탐험과 창작 — 코리요와 모험</td>
+                                    <td>~100 BPM, 마림바+플루트+패드</td>
+                                </tr>
+                                <tr>
+                                    <td>36–53초</td>
+                                    <td>반전과 감동</td>
+                                    <td>~70 BPM, 오케스트라+첼로</td>
+                                </tr>
+                                <tr>
+                                    <td>53–58초</td>
+                                    <td>여운 — 코리요 작별</td>
+                                    <td>~60 BPM, 피아노+리버브</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    <div class="card-body">
-                        <h3>방진복 서진이</h3>
-                        <p>클린룸 방진복 · 후드·마스크·보호안경·장갑·부츠 완전 착용 · 삼성 사원증</p>
+
+                    <div class="grid checklist-notes reveal">
+                        <div class="card checklist-card">
+                            <h3>체크리스트</h3>
+                            <ul class="checklist">
+                                <li><span class="check checked">✅</span> 러닝타임 60초 이하 (58초)</li>
+                                <li><span class="check checked">✅</span> 해상도 1920×1080 (16:9)</li>
+                                <li><span class="check checked">✅</span> 파일 형식 MP4</li>
+                                <li><span class="check checked">✅</span> 화성특례시 로고/슬로건</li>
+                                <li><span class="check unchecked">⬜</span> 유튜브 업로드</li>
+                                <li><span class="check unchecked">⬜</span> AI 기술서</li>
+                                <li><span class="check unchecked">⬜</span> 엔딩 크레딧</li>
+                                <li><span class="check unchecked">⬜</span> 방진복 캐릭터 시트</li>
+                            </ul>
+                        </div>
+                        <div class="card notes-card callout">
+                            <h3>참고 사항</h3>
+                            <ul class="notes-list">
+                                <li><strong>삼성전자·SK하이닉스·ASML:</strong> 창작 설정, 엔딩 크레딧 고지 권장</li>
+                                <li><strong>캐릭터 일관성:</strong> 서진+코리요 두 캐릭터의 일관성 유지가 핵심</li>
+                                <li><strong>감정 곡선:</strong> 호기심→경이→환희→존경→감동→여운</li>
+                                <li><strong>코리요 외형 기준:</strong> aihscity.ai-hub-os.com의 2026 공모전 PNG 사용</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="conti" class="conti reveal">
-            <div class="section-header">
-                <h2>프로덕션 콘티</h2>
-                <p>오늘의 그림, 내일의 빛 — 58초 AI CF 스토리보드</p>
-            </div>
-
-            <div class="overview-panel reveal">
-                <div class="overview-grid">
-                    <div class="overview-item">
-                        <span class="label">작품 제목</span>
-                        <span class="value">오늘의 그림, 내일의 빛</span>
+        <section id="guide" class="guide section-padding">
+            <div class="container reveal">
+                <h2 class="section-title">Flow 가이드</h2>
+                <div class="guide-steps">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <h3>이미지 준비</h3>
+                        <p>컬렉션의 레퍼런스 이미지를 다운로드하여 준비하세요.</p>
                     </div>
-                    <div class="overview-item">
-                        <span class="label">러닝타임</span>
-                        <span class="value">58초</span>
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <h3>장면 설명</h3>
+                        <p>콘티의 프롬프트와 레퍼런스를 복사하여 AI 비디오 툴에 붙여넣습니다.</p>
                     </div>
-                    <div class="overview-item">
-                        <span class="label">해상도</span>
-                        <span class="value">1920×1080 (16:9)</span>
-                    </div>
-                    <div class="overview-item">
-                        <span class="label">파일 형식</span>
-                        <span class="value">MP4</span>
-                    </div>
-                    <div class="overview-item">
-                        <span class="label">톤 & 무드</span>
-                        <span class="value">시네마틱 판타지 · 따뜻한 리얼리즘</span>
-                    </div>
-                    <div class="overview-item color-palette">
-                        <span class="label">컬러 팔레트</span>
-                        <div class="swatches">
-                            <div class="swatch" style="background-color: #f59e0b;" title="골든아워 앰버"></div>
-                            <div class="swatch" style="background-color: #e0f2fe;" title="클린룸 블루화이트"></div>
-                            <div class="swatch" style="background-color: #ea580c;" title="석양 오렌지"></div>
-                        </div>
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <h3>결과 확인</h3>
+                        <p>생성된 영상을 체크리스트 기준에 맞게 확인하고 편집합니다.</p>
                     </div>
                 </div>
-                <div class="logline">
-                    <strong>Logline:</strong> "화성에 사는 여섯 살 서진이가 '우리 동네의 내일'을 그리는 숙제를 받고, 정체를 숨긴 미래의 안내자와 함께 시간을 건넌다. 안내자의 정체는 삼성전자 AI·반도체 엔지니어가 된 어른 서진. 아이의 그림 한 장이 도시의 빛이 되기까지, 화성의 어제와 내일이 한 프레임 안에서 만난다."
+                <div class="prompt-box mt-8">
+                    <textarea readonly class="flow-textarea" rows="4">기본 설정 프롬프트: 16:9 1080p 해상도, 시네마틱 라이팅, 필름 그레인, 24fps. 화성시 배경의 따뜻하고 감성적인 AI 광고 영상 제작.</textarea>
+                    <button class="btn btn-primary mt-4">ZIP 리소스 다운로드</button>
                 </div>
-                <div class="emotion-curve">
-                    <strong>감정 곡선:</strong>
-                    <div class="bar-chart">
-                        <div class="bar" style="width: 19%; background: #475569;">호기심 (0-11)</div>
-                        <div class="bar" style="width: 24%; background: #64748b;">경이 (11-25)</div>
-                        <div class="bar" style="width: 19%; background: #d97706;">환희 (25-36)</div>
-                        <div class="bar" style="width: 12%; background: #ea580c;">존경 (36-43)</div>
-                        <div class="bar" style="width: 17%; background: #b45309;">감동 (43-53)</div>
-                        <div class="bar" style="width: 9%; background: #f59e0b;">여운 (53-58)</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="scene-list">
-                <!-- SCENE 01 -->
-                <div class="scene-card reveal">
-                    <div class="scene-header">
-                        <div class="scene-title-wrapper">
-                            <span class="scene-badge">SCENE 01</span>
-                            <h3 class="scene-title">숙제</h3>
-                        </div>
-                        <span class="scene-time">0:00–0:05</span>
-                    </div>
-                    <details>
-                        <summary>📷 카메라 디렉션</summary>
-                        <p>Shot A (0:00–0:02): ECU → 크레용이 종이 위에 놓이는 순간. 셸로우 DOF, 크레용 끝에 초점. 살짝 돌리 인. / Shot B (0:02–0:05): 와이드 숏, 유치원 교실. 골든아워 햇살이 창문으로 비스듬히 들어온다. 서진이가 고개를 든다.</p>
-                    </details>
-                    <details>
-                        <summary>🎥 영상 프롬프트</summary>
-                        <pre><code>Cinematic close-up of a child's hand placing a yellow crayon on white paper in a kindergarten classroom. Golden hour sunlight streaming through large windows, lens flare. Shallow depth of field, bokeh background with colorful children's drawings on the wall. Camera: slight dolly in. Film grain, warm color grading (amber highlights, soft shadows). Aspect ratio 16:9, photorealistic, 24fps cinematic motion.</code></pre>
-                    </details>
-                    <details>
-                        <summary>🖼 레퍼런스 이미지 프롬프트</summary>
-                        <pre><code>Wide shot of a bright Korean kindergarten classroom interior, late afternoon. Warm golden sunlight casting long shadows. Small wooden desks, colorful artwork on walls. A 6-year-old Korean girl with short black bob hair, wearing a pale yellow t-shirt, sits at a desk looking up with curious eyes. Cinematic lighting, anamorphic lens look.</code></pre>
-                    </details>
-                    <details>
-                        <summary>🎙 대사 / 나레이션 & 📝 자막</summary>
-                        <table class="dialogue-table">
-                            <tr><th>대사</th><td>선생님 (V.O.) — "우리 동네의 내일을 그려 오세요." — 따뜻하고 명랑한 목소리, 교실 리버브</td></tr>
-                            <tr><th>자막</th><td>없음</td></tr>
-                        </table>
-                    </details>
-                    <details>
-                        <summary>🔊 사운드 디자인</summary>
-                        <p>크레용 놓는 소리 (포일리) + 아이들 웃음소리 앰비언스 + 피아노 첫 음</p>
-                    </details>
-                </div>
-
-                <!-- SCENE 02 -->
-                <div class="scene-card reveal">
-                    <div class="scene-header">
-                        <div class="scene-title-wrapper">
-                            <span class="scene-badge">SCENE 02</span>
-                            <h3 class="scene-title">출발</h3>
-                        </div>
-                        <span class="scene-time">0:05–0:11</span>
-                    </div>
-                    <details>
-                        <summary>📷 카메라 디렉션</summary>
-                        <p>Shot A (0:05–0:07): 드론 하이앵글 → 화성 동탄 호수공원 전경. 서서히 틸트 다운. / Shot B (0:07–0:09): 트래킹 숏, 서진이가 상상 속 트램 정류장을 달려간다. 핸드헬드 느낌, 약간의 모션 블러. / Shot C (0:09–0:11): 미디엄 숏, GTX 동탄역 플랫폼. 서진이가 열차에 올라탄다. 열차 문 닫히는 순간 컷.</p>
-                    </details>
-                    <details>
-                        <summary>🎥 영상 프롬프트</summary>
-                        <pre><code>[Shot A] Aerial drone shot of Dongtan Lake Park in Hwaseong City, South Korea. Late afternoon, golden hour, the lake reflecting warm light. Lush green paths, modern apartment buildings in the distance. Smooth cinematic tilt-down movement. 16:9, photorealistic.
-
-[Shot B] Tracking shot of a 6-year-old Korean girl running excitedly toward a futuristic glass tram station. She wears a pale yellow t-shirt and beige shorts, carrying a small backpack with a star charm. Handheld camera feel, slight motion blur, warm cinematic color grading. Shallow DOF.
-
-[Shot C] Medium shot inside a modern GTX train platform. The girl steps onto the train, looking back with wonder. The doors close. Cool blue-white lighting transitions from warm exterior. Cinematic anamorphic lens flare from overhead lights.</code></pre>
-                    </details>
-                    <details>
-                        <summary>🖼 레퍼런스 이미지 프롬프트</summary>
-                        <pre><code>Futuristic GTX subway train interior in South Korea, sleek and modern design. A young Korean girl with short black hair sits by the window, gazing outside with wide curious eyes. The window reflects warm golden light transitioning to cool blue tunnel light. Cinematic composition, rule of thirds, film grain, 35mm lens equivalent.</code></pre>
-                    </details>
-                    <details>
-                        <summary>🎙 대사 / 나레이션 & 📝 자막</summary>
-                        <table class="dialogue-table">
-                            <tr><th>대사</th><td>서진 — "미래는 서울에 있겠지?" — 순수한 확신, 살짝 들뜬 목소리</td></tr>
-                            <tr><th>자막</th><td>미래는 서울에 있겠지? (하단 중앙, 흰색 산세리프, 반투명 그림자)</td></tr>
-                        </table>
-                    </details>
-                    <details>
-                        <summary>🔊 사운드 디자인</summary>
-                        <p>새소리 앰비언스 → 트램 벨소리 → GTX 문 닫히는 금속음 + 피아노 멜로디 이어짐</p>
-                    </details>
-                </div>
-
-                <!-- SCENE 03 -->
-                <div class="scene-card highlight reveal">
-                    <div class="scene-header">
-                        <div class="scene-title-wrapper">
-                            <span class="scene-badge">SCENE 03</span>
-                            <h3 class="scene-title">시간의 문 <span class="star">⭐</span></h3>
-                        </div>
-                        <span class="scene-time">0:11–0:18</span>
-                    </div>
-                    <details>
-                        <summary>📷 카메라 디렉션</summary>
-                        <p>Shot A (0:11–0:13): 서진 POV — GTX 창밖 풍경이 빛의 입자로 해체. 스피드 램프 (slow→fast→slow). / Shot B (0:13–0:15): 크로스 디졸브 — 반도체 팹 클린룸 출구. 유리 너머 웨이퍼 이송 장비 실루엣. 출구 문 열리며 형광등 빛 쏟아짐. 방진복 완전 착용 인물이 역광으로 걸어 나옴. / Shot C (0:15–0:18): 로우앵글 → 방진복 인물이 빛의 경계를 넘어 어린 서진 앞에 나타남. 두 인물의 실루엣이 하나의 프레임에 담김. 얼굴은 보이지 않음.</p>
-                    </details>
-                    <details>
-                        <summary>🎥 영상 프롬프트</summary>
-                        <pre><code>[Shot A] First-person POV from inside a train. The landscape outside the window dissolves into luminous particles of light — amber, gold, and white. Speed ramp effect: slow motion → rapid acceleration → slow again. Light particles stream past like a warp tunnel. Cinematic, ethereal, anamorphic lens distortion at edges.
-
-[Shot B] A semiconductor fab cleanroom exit corridor. Through the glass walls, blurred wafer transport equipment (FOUP carriers) moves robotically. The exit door opens — bright white light floods in. A figure in full cleanroom bunny suit (white coverall, hood, face mask, safety goggles, gloves, cleanroom boots) walks forward in silhouette, backlit by the intense white light. Samsung logo visible on the suit. Cinematic, mysterious, cool blue-white color palette.
-
-[Shot C] Low-angle shot. The cleanroom figure steps through a boundary of light (practical effect: volumetric haze + strong backlight). On the other side, a small girl looks up in awe. Two silhouettes — one tall, one small — framed together. The figure's face remains completely hidden behind the mask and goggles. Dramatic chiaroscuro lighting.</code></pre>
-                    </details>
-                    <details>
-                        <summary>🖼 레퍼런스 이미지 프롬프트</summary>
-                        <pre><code>Dramatic cinematic frame: A tall figure in a white semiconductor cleanroom suit (full bunny suit with hood, mask, goggles) stands in a doorway filled with brilliant white light. Volumetric fog/haze creates visible light rays. In the foreground, the small silhouette of a child looks up in wonder. Strong backlight, lens flare, cool blue-white tones with warm amber accents. Film noir meets sci-fi aesthetic. 16:9 aspect ratio.</code></pre>
-                    </details>
-                    <details>
-                        <summary>🎙 대사 / 나레이션 & 📝 자막</summary>
-                        <table class="dialogue-table">
-                            <tr><th>대사</th><td>서진 — "우주인이에요?" — 놀라면서도 호기심 가득한 속삭임<br>안내자 — "네 내일을 만나러 갈래?" — 마스크 너머 약간 머플된 음성, 따뜻하지만 정체를 숨긴 톤</td></tr>
-                            <tr><th>자막</th><td>대화형 — 좌/우 오프셋으로 화자 구분</td></tr>
-                        </table>
-                    </details>
-                    <details>
-                        <summary>🔊 사운드 디자인</summary>
-                        <p>열차 소음 → 리버스 심벌 크레센도 → 클린룸 에어 서큘레이션 저주파 → 출구 문 열리는 에어록 소리 → 발걸음 에코 + 스트링 트레몰로</p>
-                    </details>
-                </div>
-
-                <!-- SCENE 04 -->
-                <div class="scene-card reveal">
-                    <div class="scene-header">
-                        <div class="scene-title-wrapper">
-                            <span class="scene-badge">SCENE 04</span>
-                            <h3 class="scene-title">미래 화성</h3>
-                        </div>
-                        <span class="scene-time">0:18–0:25</span>
-                    </div>
-                    <details>
-                        <summary>📷 카메라 디렉션</summary>
-                        <p>Shot A (0:18–0:21): 크레인/드론 숏 — 미래 화성시 조감도. 자연과 첨단 건축 공존. / Shot B (0:21–0:23): 오버 더 숄더 숏 (서진 시점) — 안내자와 함께 걷다 SAMSUNG·ASML 건물 표식이 시야에. / Shot C (0:23–0:25): 클로즈업 — 서진의 눈에 도시의 빛이 반사. 눈동자 리플렉션 샷.</p>
-                    </details>
-                    <details>
-                        <summary>🎥 영상 프롬프트</summary>
-                        <pre><code>[Shot A] Sweeping aerial shot of a futuristic version of Hwaseong City, South Korea. Green parks integrated with sleek curved glass buildings. An elevated tram glides silently above tree-lined streets. Solar panels on rooftops reflect golden light. Clean, utopian city aesthetic — nature and technology in harmony. Warm golden hour lighting, cinematic drone movement, 16:9.
-
-[Shot B] Over-the-shoulder shot from behind a small girl walking alongside a tall figure in white cleanroom attire. They look up at modern buildings with "SAMSUNG" and "ASML" signage subtly visible on the facades. Late afternoon light, warm amber tones, cinematic depth.
-
-[Shot C] Extreme close-up of a child's eye. In the reflection of the iris, the futuristic cityscape is visible — glowing buildings, green trees, light trails. Single tear of wonder forming. Macro lens, shallow DOF, warm golden highlights in the iris.</code></pre>
-                    </details>
-                    <details>
-                        <summary>🖼 레퍼런스 이미지 프롬프트</summary>
-                        <pre><code>Concept art of a futuristic eco-city: Hwaseong, South Korea in 2040. Curved glass and white steel buildings surrounded by lush greenery. Elevated monorail/tram system. A large semiconductor campus with Samsung and ASML logos. Blue sky, white clouds, golden hour lighting. Studio Ghibli-meets-Blade-Runner aesthetic, but warm and inviting. Photorealistic rendering, 16:9 cinematic composition.</code></pre>
-                    </details>
-                    <details>
-                        <summary>🎙 대사 / 나레이션 & 📝 자막</summary>
-                        <table class="dialogue-table">
-                            <tr><th>대사</th><td>서진 — "여기가… 우리 동네?" — 압도된 목소리, 경이로운 속삭임</td></tr>
-                            <tr><th>자막</th><td>여기가… 우리 동네? (하단 중앙)</td></tr>
-                        </table>
-                    </details>
-                    <details>
-                        <summary>🔊 사운드 디자인</summary>
-                        <p>바람 소리 + 미래 도시 앰비언스 (전기차 모터음, 새소리, 분수) + 마림바 멜로디 시작</p>
-                    </details>
-                </div>
-
-                <!-- SCENE 05 -->
-                <div class="scene-card reveal">
-                    <div class="scene-header">
-                        <div class="scene-title-wrapper">
-                            <span class="scene-badge">SCENE 05</span>
-                            <h3 class="scene-title">그림이 세계가 되다</h3>
-                        </div>
-                        <span class="scene-time">0:25–0:36</span>
-                    </div>
-                    <details>
-                        <summary>📷 카메라 디렉션</summary>
-                        <p>Shot A (0:25–0:28): 탑다운 숏 — 숙제장에 그림 그리기. / Shot B (0:28–0:31): 매치 컷 — 세계 각국 아이들이 그림 보태기. / Shot C (0:31–0:36): 풀 CG 전환 — 그림이 3D 놀이터로 변환.</p>
-                    </details>
-                    <details>
-                        <summary>🎥 영상 프롬프트</summary>
-                        <pre><code>[Shot A] Top-down close-up of a child's hands drawing with crayons on a sketchbook. She draws curved shapes inspired by dinosaur eggs, tidal flat water channels, and lake ripples — organic, flowing lines in warm earth tones. Each crayon stroke leaves vivid color on textured paper. Natural lighting, shallow DOF, ASMR-quality detail.
-
-[Shot B] Montage of children from different countries (diverse ethnicities) drawing on their own papers. Each drawing adds to a growing composition — Japanese cherry blossoms, African baobab trees, European castles — all blending with Seojin's Korean landscape elements. Match cuts between hands drawing, warm lighting throughout.
-
-[Shot C] The crayon lines on paper begin to glow and lift off the page, transforming into luminous 3D structures. A collaborative playground materializes — slides shaped like dinosaur eggs, splash pads following tidal patterns, a treehouse with cherry blossoms. Camera flies into this magical space as it builds itself. Volumetric lighting, particle effects, warm and wonder-filled atmosphere.</code></pre>
-                    </details>
-                    <details>
-                        <summary>🖼 레퍼런스 이미지 프롬프트</summary>
-                        <pre><code>A magical playground materializing from children's crayon drawings. Lines of color float in the air, some still 2D, others fully formed into 3D playground structures. Dinosaur egg-shaped slides, water channels with gentle streams, a treehouse with flowers. Mixed media aesthetic — hand-drawn lines coexisting with photorealistic 3D elements. Volumetric golden light, floating particles, dreamy atmosphere. 16:9 cinematic frame.</code></pre>
-                    </details>
-                    <details>
-                        <summary>🎙 대사 / 나레이션 & 📝 자막</summary>
-                        <table class="dialogue-table">
-                            <tr><th>대사</th><td>서진 — "우리 그림이 움직여!" — 환희에 찬 외침</td></tr>
-                            <tr><th>자막</th><td>우리 그림이 움직여! (하단 중앙)</td></tr>
-                        </table>
-                    </details>
-                    <details>
-                        <summary>🔊 사운드 디자인</summary>
-                        <p>크레용 긁는 소리 → 마법 효과음 (윈드 차임 + 글리산도) → 아이들 웃음소리 레이어 → 오케스트라 빌드업</p>
-                    </details>
-                </div>
-
-                <!-- SCENE 06 -->
-                <div class="scene-card reveal">
-                    <div class="scene-header">
-                        <div class="scene-title-wrapper">
-                            <span class="scene-badge">SCENE 06</span>
-                            <h3 class="scene-title">엔지니어의 세계</h3>
-                        </div>
-                        <span class="scene-time">0:36–0:43</span>
-                    </div>
-                    <details>
-                        <summary>📷 카메라 디렉션</summary>
-                        <p>Shot A (0:36–0:39): 매치 컷 — 놀이터 곡선 → 반도체 회로 패턴. / Shot B (0:39–0:41): 미디엄 숏 — 안내자가 홀로그램 AI 화면과 반도체 칩 모형. / Shot C (0:41–0:43): 와이드 숏 — 미래 산업 풍경, SK하이닉스 로고.</p>
-                    </details>
-                    <details>
-                        <summary>🎥 영상 프롬프트</summary>
-                        <pre><code>[Shot A] Seamless match cut: curved playground lines morph into semiconductor circuit patterns. Macro lens extreme close-up of a silicon wafer surface — intricate golden circuit traces on dark silicon. The lines pulse with light, echoing the crayon strokes from the previous scene. Cool blue-white lighting with golden trace highlights.
-
-[Shot B] Medium shot of the cleanroom-suited figure holding a holographic AI interface. A semiconductor chip model floats above their gloved hand. Light traces from the chip extend outward, connecting to city lights visible through a window. Cool lab lighting with warm city glow outside. Cinematic, futuristic yet grounded.
-
-[Shot C] Wide establishing shot of a futuristic semiconductor fab campus at sunset. Multiple large clean buildings with SK Hynix logo visible on one building. Golden sunset sky, dramatic clouds. Subtle overlay text: "상상한 미래 모습" in clean sans-serif. Epic cinematic composition, symmetrical framing.</code></pre>
-                    </details>
-                    <details>
-                        <summary>🖼 레퍼런스 이미지 프롬프트</summary>
-                        <pre><code>A semiconductor engineer in cleanroom suit holds a glowing holographic display showing a 3D chip architecture. Light traces extend from the chip like a neural network, connecting to a cityscape visible through the lab window. The scene bridges microscopic (circuits) and macroscopic (city lights). Cool blue interior / warm amber exterior. Cinematic split lighting.</code></pre>
-                    </details>
-                    <details>
-                        <summary>🎙 대사 / 나레이션 & 📝 자막</summary>
-                        <table class="dialogue-table">
-                            <tr><th>대사</th><td>안내자 — "나는 AI와 반도체를 만드는 엔지니어야." — 마스크를 살짝 내린 듯 더 명확해진 목소리, 자부심 + 따뜻함</td></tr>
-                            <tr><th>자막</th><td>나는 AI와 반도체를 만드는 엔지니어야. (하단 중앙)</td></tr>
-                        </table>
-                    </details>
-                    <details>
-                        <summary>🔊 사운드 디자인</summary>
-                        <p>회로 패턴 전환 시 전자음 펄스 → 홀로그램 UI 작동음 → 도시 앰비언스 + 첼로 솔로 시작</p>
-                    </details>
-                </div>
-
-                <!-- SCENE 07 -->
-                <div class="scene-card highlight reveal">
-                    <div class="scene-header">
-                        <div class="scene-title-wrapper">
-                            <span class="scene-badge">SCENE 07</span>
-                            <h3 class="scene-title">정체 공개 <span class="star">⭐</span></h3>
-                        </div>
-                        <span class="scene-time">0:43–0:53</span>
-                    </div>
-                    <details>
-                        <summary>📷 카메라 디렉션</summary>
-                        <p>Shot A (0:43–0:45): 미디엄 숏 — 클린룸 밖 전환 공간. 안내자가 후드를 천천히 벗음. 슬로모션 48fps. / Shot B (0:45–0:47): 인서트 숏 연속 — ① 별 장식 ② '서진' 사원증 ③ 오래된 숙제장. / Shot C (0:47–0:50): 리버스 숏 — 어린 서진의 얼굴. 눈이 커짐. / Shot D (0:50–0:53): 투 숏 — 두 서진이 마주 봄. 숙제장을 펼침. 어린 서진의 그림 위에 어른의 손이 포개짐.</p>
-                    </details>
-                    <details>
-                        <summary>🎥 영상 프롬프트</summary>
-                        <pre><code>[Shot A] Medium shot in a cleanroom gowning corridor. Soft blue-white overhead lighting. The suited figure slowly removes their hood — revealing the back of their head first, then turning. A young Korean woman (age 25) with short black hair, gentle eyes. 48fps slow motion, shallow DOF, emotional reveal moment. Warm light gradually replacing the cool clinical lighting.
-
-[Shot B - INSERT 1] Close-up of a star charm on a bag — identical to the child's backpack charm. Shallow DOF, warm highlight.
-[Shot B - INSERT 2] Close-up of a Samsung employee badge: Name "서진", Title "AI · 반도체 엔지니어". Badge catches light.
-[Shot B - INSERT 3] Close-up of a worn, old sketchbook with crayon drawings — the same homework from the opening scene, aged and yellowed.
-
-[Shot C] Reverse shot: close-up of the child Seojin's face. Her eyes widen. Lips tremble with recognition. A single tear catches the light. Macro detail on the iris reflecting the adult's face. Shallow DOF, warm golden fill light.
-
-[Shot D] Two-shot: child Seojin and adult Seojin face each other. The adult opens the old sketchbook. Her hand gently overlaps the child's hand on the crayon drawing. Matching star charms visible on both figures. Warm golden light wraps around them. Shallow DOF, background softly blurred. Deeply emotional, intimate framing.</code></pre>
-                    </details>
-                    <details>
-                        <summary>🖼 레퍼런스 이미지 프롬프트</summary>
-                        <pre><code>Emotional cinematic frame: A young Korean woman (25) in a beige shirt kneels to eye level with her 6-year-old self. They share an old crayon sketchbook between them. Both wear star charms. The woman has a Samsung employee badge visible. Warm golden backlight, soft fill light, shallow depth of field. Tears and smiles. The composition echoes Spielberg's emotional close-ups. Film grain, anamorphic bokeh.</code></pre>
-                    </details>
-                    <details>
-                        <summary>🎙 대사 / 나레이션 & 📝 자막</summary>
-                        <table class="dialogue-table">
-                            <tr><th>대사</th><td>서진 (어린) — "혹시… 미래의 나?" — 떨리는 목소리<br>서진 (어른) — "응. 네가 꿈꾸던 미래를 만들고 있어." — 울먹이면서도 단단한 미소</td></tr>
-                            <tr><th>자막</th><td>대화형 — 좌/우 오프셋, 어른 서진 대사는 약간 볼드</td></tr>
-                        </table>
-                    </details>
-                    <details>
-                        <summary>🔊 사운드 디자인</summary>
-                        <p>에어 샤워 정지음 → 후드 벗는 천 소리 → 사원증 금속 딸깍 → 숙제장 넘기는 종이 소리 → 첼로 솔로 클라이맥스 + 피아노 화음</p>
-                    </details>
-                </div>
-
-                <!-- SCENE 08 -->
-                <div class="scene-card reveal">
-                    <div class="scene-header">
-                        <div class="scene-title-wrapper">
-                            <span class="scene-badge">SCENE 08</span>
-                            <h3 class="scene-title">귀환</h3>
-                        </div>
-                        <span class="scene-time">0:53–0:55</span>
-                    </div>
-                    <details>
-                        <summary>📷 카메라 디렉션</summary>
-                        <p>사이드 트래킹 숏 — 두 서진이 나란히 귀환 열차에 앉음. 창밖 빛이 과거로 되감김. 디졸브로 유치원 교실 전환.</p>
-                    </details>
-                    <details>
-                        <summary>🎥 영상 프롬프트</summary>
-                        <pre><code>Side tracking shot through a train window: adult and child Seojin sit side by side. Outside the window, the futuristic cityscape dissolves backward through light particles — rewinding through time. The adult figure gradually fades as the scene transitions. Cross dissolve to a kindergarten classroom. Warm amber to golden lighting transition, melancholic but hopeful.</code></pre>
-                    </details>
-                    <details>
-                        <summary>🎙 대사 / 나레이션 & 📝 자막</summary>
-                        <table class="dialogue-table">
-                            <tr><th>대사</th><td>없음 (음악만)</td></tr>
-                            <tr><th>자막</th><td>없음</td></tr>
-                        </table>
-                    </details>
-                    <details>
-                        <summary>🔊 사운드 디자인</summary>
-                        <p>열차 레일 리듬 → 시간 역행 사운드 (리버스 피아노 + 윈드) → 점차 사라짐</p>
-                    </details>
-                </div>
-
-                <!-- SCENE 09 -->
-                <div class="scene-card reveal">
-                    <div class="scene-header">
-                        <div class="scene-title-wrapper">
-                            <span class="scene-badge">SCENE 09</span>
-                            <h3 class="scene-title">숙제의 답</h3>
-                        </div>
-                        <span class="scene-time">0:55–0:57</span>
-                    </div>
-                    <details>
-                        <summary>📷 카메라 디렉션</summary>
-                        <p>ECU → 서진이 숙제장을 펼침. 크레용으로 한 줄을 씀. 카메라가 서서히 풀 숏으로.</p>
-                    </details>
-                    <details>
-                        <summary>🎥 영상 프롬프트</summary>
-                        <pre><code>Extreme close-up of a child's hand writing in crayon on a sketchbook page. The text reads in Korean: "내 미래는 우리 동네에 있어요." Camera slowly pulls back to reveal the child sitting in the kindergarten classroom, afternoon light now softer, approaching dusk. She smiles down at her drawing — the futuristic city, the engineer, the playground. Warm lighting, shallow DOF transitioning to deep focus.</code></pre>
-                    </details>
-                    <details>
-                        <summary>🎙 대사 / 나레이션 & 📝 자막</summary>
-                        <table class="dialogue-table">
-                            <tr><th>대사</th><td>서진 (V.O.) — "내 미래는 우리 동네에 있어요." — 조용하지만 확신에 찬 아이 목소리</td></tr>
-                            <tr><th>자막</th><td>내 미래는 우리 동네에 있어요. (하단 중앙, 약간 크게)</td></tr>
-                        </table>
-                    </details>
-                    <details>
-                        <summary>🔊 사운드 디자인</summary>
-                        <p>크레용 쓰는 소리 + 피아노 단선율</p>
-                    </details>
-                </div>
-
-                <!-- SCENE 10 -->
-                <div class="scene-card reveal">
-                    <div class="scene-header">
-                        <div class="scene-title-wrapper">
-                            <span class="scene-badge">SCENE 10</span>
-                            <h3 class="scene-title">엔딩 타이틀</h3>
-                        </div>
-                        <span class="scene-time">0:57–0:58</span>
-                    </div>
-                    <details>
-                        <summary>📷 카메라 디렉션</summary>
-                        <p>숙제장 그림이 빛나기 시작. 그림 속 도시 윤곽이 실제 화성시 야경과 더블 익스포저로 겹침. 페이드 투 화이트.</p>
-                    </details>
-                    <details>
-                        <summary>🎥 영상 프롬프트</summary>
-                        <pre><code>The crayon drawing in the sketchbook begins to glow softly. Double exposure: the child's drawing overlaps with a real aerial night view of Hwaseong City — lights along the roads echo the crayon strokes. Slow fade to warm white. Title card appears: "모두의 행복, 더 큰 화성" in elegant serif Korean typography, gold color on white. Below: 화성특례시 official logo. Fade to black.</code></pre>
-                    </details>
-                    <details>
-                        <summary>🖼 레퍼런스 이미지 프롬프트</summary>
-                        <pre><code>Double exposure art: a child's colorful crayon drawing of a futuristic city overlaid with an actual aerial night photograph of Hwaseong City, South Korea. The crayon lines align with the real city lights and roads. Warm golden glow, magical realism aesthetic. Clean title typography: "모두의 행복, 더 큰 화성" in gold serif font, centered, with Hwaseong City logo beneath.</code></pre>
-                    </details>
-                    <details>
-                        <summary>🎙 대사 / 나레이션 & 📝 자막</summary>
-                        <table class="dialogue-table">
-                            <tr><th>대사</th><td>없음</td></tr>
-                            <tr><th>자막/타이틀</th><td>모두의 행복, 더 큰 화성 / 화성특례시 (센터 정렬, 골드 세리프체)</td></tr>
-                        </table>
-                    </details>
-                    <details>
-                        <summary>🔊 사운드 디자인</summary>
-                        <p>피아노 마지막 코드 + 공간감 리버브 테일 → 무음</p>
-                    </details>
-                </div>
-            </div>
-
-            <div class="music-design reveal">
-                <h3>사운드 및 음악 디자인</h3>
-                <div class="table-container">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>구간</th>
-                                <th>분위기</th>
-                                <th>BPM / 악기</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>0–11초</td>
-                                <td>호기심과 출발 — 따뜻한 피아노 아르페지오, 가벼운 글로켄슈필</td>
-                                <td>~90 BPM</td>
-                            </tr>
-                            <tr>
-                                <td>11–18초</td>
-                                <td>경이 — 스트링 트레몰로 + 리버스 심벌, 저역 서브베이스</td>
-                                <td>~80 BPM</td>
-                            </tr>
-                            <tr>
-                                <td>18–36초</td>
-                                <td>탐험과 창작 — 마림바·플루트 + 일렉트로닉 패드, 점진 빌드업</td>
-                                <td>~100 BPM</td>
-                            </tr>
-                            <tr>
-                                <td>36–53초</td>
-                                <td>반전과 감동 — 풀 오케스트라 스웰, 첼로 솔로</td>
-                                <td>~70 BPM</td>
-                            </tr>
-                            <tr>
-                                <td>53–58초</td>
-                                <td>여운 — 피아노 단선율 + 공간감 있는 리버브, 페이드</td>
-                                <td>~60 BPM</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <div class="checklist reveal">
-                <h3>제출 체크리스트</h3>
-                <ul>
-                    <li class="checked">✅ 러닝타임 60초 이하 (58초 설계)</li>
-                    <li class="checked">✅ 해상도 1920×1080 이상 (16:9)</li>
-                    <li class="checked">✅ 파일 형식 MP4</li>
-                    <li class="checked">✅ 화성특례시 로고/슬로건 삽입</li>
-                    <li class="unchecked">⬜ 유튜브 업로드 + 전체 공개</li>
-                    <li class="unchecked">⬜ AI 활용 도구·방법 기술서</li>
-                    <li class="unchecked">⬜ 엔딩 크레딧 (출처 명시)</li>
-                    <li class="unchecked">⬜ 방진복 캐릭터 시트 제작</li>
-                </ul>
-            </div>
-
-            <div class="notes reveal">
-                <h3>프로덕션 노트</h3>
-                <ul>
-                    <li><strong>삼성전자·SK하이닉스·ASML 로고 사용:</strong> 이야기 속 창작 설정이며 실제 기업 협찬이 아님. 엔딩 크레딧에 명시 권장.</li>
-                    <li><strong>캐릭터 일관성:</strong> 어린 서진과 어른 서진의 얼굴 일관성이 AI 영상 생성의 최대 난점. 캐릭터 시트를 레퍼런스로 반드시 첨부.</li>
-                    <li><strong>감정 곡선:</strong> 호기심(0–11) → 경이(11–25) → 환희(25–36) → 존경(36–43) → 감동(43–53) → 여운(53–58)</li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="guide" class="guide reveal">
-            <div class="section-header">
-                <h2>Flow 가이드</h2>
-                <p>AI 영상 생성을 위한 프롬프트 가이드</p>
-            </div>
-            <div class="guide-steps">
-                <div class="step">
-                    <span class="step-num">1</span>
-                    <h4>이미지 준비</h4>
-                    <p>위의 캐릭터 시트를 레퍼런스로 활용하세요.</p>
-                </div>
-                <div class="step">
-                    <span class="step-num">2</span>
-                    <h4>장면 설명</h4>
-                    <p>콘티의 텍스트 프롬프트를 복사하여 AI 도구에 입력합니다.</p>
-                </div>
-                <div class="step">
-                    <span class="step-num">3</span>
-                    <h4>결과 확인</h4>
-                    <p>생성된 영상 클립들을 모아 편집과 사운드 작업을 진행합니다.</p>
-                </div>
-            </div>
-            <div class="prompt-box">
-                <textarea placeholder="프롬프트 초안을 연습해보세요..." rows="5"></textarea>
-                <button class="btn btn-secondary">ZIP 파일로 에셋 다운로드 ↘</button>
             </div>
         </section>
     </main>
 
     <footer class="footer">
-        <p>SEOJIN · CHARACTER STUDIO · 2026 별별화성 Awards</p>
-        <a href="#" class="back-to-top">맨 위로 &uarr;</a>
+        <div class="container footer-content">
+            <p>SEOJIN · CHARACTER STUDIO · 2026 별별화성 Awards</p>
+            <a href="#" class="back-to-top">맨 위로 ↑</a>
+        </div>
     </footer>
 
-    <dialog id="lightbox">
-        <div class="lightbox-content">
-            <button class="close-btn">&times;</button>
-            <img id="lightbox-img" src="" alt="확대된 이미지">
-        </div>
-    </dialog>
+    <script src="app.js"></script>
 </body>
 </html>
