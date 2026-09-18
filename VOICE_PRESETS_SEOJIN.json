@@ -1,51 +1,14 @@
 {
-  "status": "casting_directions_only",
-  "engine": "Seedance 2.5",
-  "voice_reference_status": "not_selected",
-  "note_ko": "관리용 이름이며 서비스의 실제 voice ID가 아니다. 첫 샘플 확정 후 같은 음원을 계속 재사용한다.",
+  "status": "storyboard_v3_single_narrator",
+  "engine": "planned: Seedance 2.5",
+  "voice_reference_status": "reuse_previous_selection_after_verification",
+  "note_ko": "한 명의 내레이터가 설명과 인용 대사를 모두 읽는다. 새 음성 생성은 실행하지 않았다. 관리용 코드는 실제 서비스 voice ID가 아니다.",
   "presets": [
     {
-      "code": "child-seojin-7",
-      "character": "어린 서진",
-      "direction_ko": "7세 남자아이. 맑고 자연스러운 목소리, 과장된 아기 말투 배제",
-      "direction_en": "Natural, clear Korean boy voice, age 7. Avoid exaggerated baby talk.",
+      "code": "narrator-single",
+      "character": "내레이터 1명",
+      "direction_ko": "따뜻하고 또렷한 한국어. 엄마·코리요·어른 서진 인용문은 억양만 구분. 문장 끝을 자르지 않고 립싱크하지 않음.",
       "voice_id": null,
-      "seed": null,
-      "pitch": null,
-      "speed": null,
-      "sample_audio": null
-    },
-    {
-      "code": "adult-seojin-25",
-      "character": "어른 서진 / 안내자",
-      "direction_ko": "25세 남성. 차분하고 따뜻한 목소리. 안내자 구간만 편집으로 약한 마스크 효과",
-      "direction_en": "Calm, warm Korean man in his mid-twenties. Same voice for the guide.",
-      "voice_id": null,
-      "seed": null,
-      "pitch": null,
-      "speed": null,
-      "sample_audio": null
-    },
-    {
-      "code": "koriyo-bright",
-      "character": "코리요",
-      "direction_ko": "밝고 경쾌한 마스코트. 날카롭지 않게",
-      "direction_en": "Bright, playful mascot voice, warm rather than shrill.",
-      "voice_id": null,
-      "seed": null,
-      "pitch": null,
-      "speed": null,
-      "sample_audio": null
-    },
-    {
-      "code": "teacher-warm",
-      "character": "선생님",
-      "direction_ko": "따뜻하고 또렷한 한국어. 목소리만 등장",
-      "direction_en": "Warm, clear Korean teacher voice, off-screen only.",
-      "voice_id": null,
-      "seed": null,
-      "pitch": null,
-      "speed": null,
       "sample_audio": null
     }
   ]
